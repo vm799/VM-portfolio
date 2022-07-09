@@ -1,8 +1,8 @@
-import "./Hero.scss"
+import "./Hero.css"
 
 export default function Hero() {
   return (
-    <div className= "Hero">
+    <div className= "Hero" id="Hero">
         Hero
     </div>
   )

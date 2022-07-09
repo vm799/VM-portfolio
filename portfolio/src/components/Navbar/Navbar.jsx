@@ -1,8 +1,8 @@
-import "./Navbar.scss"
+import "./Navbar.css"
 
 export default function Navbar() {
   return (
-    <div className="Navbar">
+    <div className="Navbar" id="Navbar">
       Navbar
       </div>
   )
