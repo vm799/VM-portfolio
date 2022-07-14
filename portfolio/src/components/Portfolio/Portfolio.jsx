@@ -2,7 +2,7 @@ import "./Portfolio.css"
 
 export default function Portfolio() {
   return (
-    <div className="Portfolio" id="id">
+    <div className="Portfolio" id="portfolio">
         portfolio
         </div>
   )
