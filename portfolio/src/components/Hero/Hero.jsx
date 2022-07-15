@@ -1,6 +1,6 @@
 import "./Hero.css"
 // import { useEffect, useRef } from "react";
-import Typed from 'react-typed'
+
 
  
 function Hero (){
@@ -17,18 +17,7 @@ return (
 <div className="wrapper">
     <h2> Hi there, I'm</h2>
     <h1> Vaishali Mehmi</h1>
-    <h3>I'm a  <span>
-        <Typed 
-        strings={[
-            "front End Dev",
-            "front End Dev",
-            "front End Dev",
-        ]}
-        typeSpeed={150}
-        backSpeed={100}
-        loop/>
-         
-          </span>
+    <h3>I'm a  <span>  </span>
     </h3>
 </div>
 
