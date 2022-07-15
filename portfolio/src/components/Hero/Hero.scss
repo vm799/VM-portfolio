@@ -2,10 +2,10 @@
     display:flex;
  background-color: white;
 
- @include mobile{
-     flex-direction: column;
-     align-items:center ;
- }
+//  @include mobile{
+//      flex-direction: column;
+//      align-items:center ;
+//  }
     .left{
         flex:0.5;
     overflow: hidden;
@@ -13,11 +13,11 @@
         .imgContainer{
             width:700px;
             height:700px;
-            background-color: rgb(133, 183, 183);
+            background: ( rgba(7,217,226,1));
             border-radius: 50%;
             display: flex;
             justify-content: center;
-            align-items: flex-end;
+            align-items:center;
             float:right;
         }
         img{
@@ -36,35 +36,97 @@
             display:flex;
             flex-direction: column;
             justify-content: center;
-
-            h1{
-                font-size:60px;
-                margin:10px 0;
-            }
+h1{
+    font-size:45px;
+    margin-top: 0.5em;
+}
+          
             h2{
                 font-size:35px;
+                font-weight: 100;
             }
 
             h3{
                 font-size:30px;
+                background: -webkit-linear-gradient(rgba(231,5,186,1), rgba(7,217,226,1));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-weight: 400;
+                
+                .type{
+                   font-size: 2.5rem;
+                   overflow: hidden;
+                   border-right: .08em solid rgb(195, 0, 255);
+                   white-space: nowrap; 
+                   width: 0;
+                   animation: 
+                     typing 1s steps(25, end) forwards;
+               }
+                 .type2{
+                   font-size: 2.5rem; 
+                   overflow: hidden;
+                   border-right: .08em solid rgb(129, 147, 236);
+                   white-space: nowrap; 
+                   width: 0;
+                   animation: 
+                     typing 1s steps(25, end) forwards;
+                   animation-delay: 1s;
+               }
+                 .type3{
+                   font-size: 2.5rem; 
+                   overflow: hidden;
+                   border-right: .08em solid rgb(12, 210, 200); 
+                   white-space: nowrap; 
+                   width: 0;
+                   animation: 
+                     typing 5s steps(25, end) forwards;
+                   animation-delay: 3s;
+               }
             }
+            .c1, 
+            .c2, 
+            .c3, 
+            .c4{
+                display: inline-block;
+                 color:rgb(108, 200, 200) ;
+              }
+             
+              
+
+             
+              @keyframes typing {
+                from { width: 0 }
+                to { width: 100% }
+              }
+
+              @keyframes blink {
+                  50%{
+                      opacity:1;
+                    }
+                100% { opacity:0; 
+                }
+               
+              }
         }
-            a{
-                position:absolute;
-                bottom:10px;
-                left:40%;
+        //     a{
+        //         position:absolute;
+        //         bottom:10px;
+        //         left:40%;
 
-            img{
-                width:30px;
-                animation: arrowBlink 2s infinite;
-            }
+        //     img{
+        //         width:30px;
+        //         animation: arrowBlink 2s infinite;
+        //     }
 
-            @keyframes arrowBlink  {
-                100%{
-                    opacity: 0;
+        //     @keyframes arrowBlink  {
+        //         100%{
+        //             opacity: 0;
                     
-            }
-          }
-        }
-      }
+        //     }
+        //   }
+        // }
     }
+    }
+
+ 
+  

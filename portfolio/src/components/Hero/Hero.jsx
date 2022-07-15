@@ -3,34 +3,38 @@ import "./Hero.css"
 
 
  
-function Hero (){
-
+export default function Hero (){
 
 return (
     <div className= "Hero" id="hero">
+
         <div className="left">
-        <div className="imgContainer">
+            <div className="imgContainer">
             <img src="assets/me.png" alt="vaishali smiling" />
         </div>
         </div>
+
         <div className="right">
-<div className="wrapper">
-    <h2> Hi there, I'm</h2>
-    <h1> Vaishali Mehmi</h1>
-    <h3>I'm a  <span>  </span>
-    </h3>
-</div>
+            <div className="wrapper">
+                <h2> Hi there, I'm</h2>
+                <h1> Vaishali Mehmi</h1>
+                <h3>
+                <br /> 
+            <div class="c1">
+             <div class="type">Web Developer</div>
+            </div>
+            <br />  
 
-<a href="#portfolio"> 
-<img src="https://cdn-icons-png.flaticon.com/512/892/892498.png" 
-alt="down arrow" /> 
-</a>
+            <div class="c2">
+             <div class="type2">Web Designer</div>
+            </div>
+            <br />
+
+            <div class="c3">
+             <div class="type3">UX Designer</div>
+            </div>
+            </h3>
+            </div>
         </div>
-    </div>
-   
-  );
-}
-
-
-export default Hero;
-// <a href="https://www.flaticon.com/free-icons/down-arrow" title="down arrow icons">Down arrow icons created by Pixel perfect - Flaticon</a>
+    </div>  
+  )}

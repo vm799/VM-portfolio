@@ -9,12 +9,13 @@
   -webkit-box-flex: 0.5;
       -ms-flex: 0.5;
           flex: 0.5;
+  overflow: hidden;
 }
 
 .Hero .left .imgContainer {
   width: 700px;
   height: 700px;
-  background-color: #85b7b7;
+  background: #07d9e2;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,37 +58,96 @@
 }
 
 .Hero .right .wrapper h1 {
-  font-size: 60px;
-  margin: 10px 0;
+  font-size: 45px;
+  margin-top: 0.5em;
 }
 
 .Hero .right .wrapper h2 {
   font-size: 35px;
+  font-weight: 100;
 }
 
 .Hero .right .wrapper h3 {
   font-size: 30px;
+  background: -webkit-linear-gradient(#e705ba, #07d9e2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
 }
 
-.Hero .right a {
-  position: absolute;
-  bottom: 10px;
-  left: 40%;
+.Hero .right .wrapper h3 .type {
+  font-size: 2.5rem;
+  overflow: hidden;
+  border-right: 0.08em solid #c300ff;
+  white-space: nowrap;
+  width: 0;
+  -webkit-animation: typing 1s steps(25, end) forwards;
+          animation: typing 1s steps(25, end) forwards;
 }
 
-.Hero .right a img {
-  width: 30px;
-  -webkit-animation: arrowBlink 2s infinite;
-          animation: arrowBlink 2s infinite;
+.Hero .right .wrapper h3 .type2 {
+  font-size: 2.5rem;
+  overflow: hidden;
+  border-right: 0.08em solid #8193ec;
+  white-space: nowrap;
+  width: 0;
+  -webkit-animation: typing 1s steps(25, end) forwards;
+          animation: typing 1s steps(25, end) forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
-@-webkit-keyframes arrowBlink {
+.Hero .right .wrapper h3 .type3 {
+  font-size: 2.5rem;
+  overflow: hidden;
+  border-right: 0.08em solid #0cd2c8;
+  white-space: nowrap;
+  width: 0;
+  -webkit-animation: typing 5s steps(25, end) forwards;
+          animation: typing 5s steps(25, end) forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.Hero .right .wrapper .c1,
+.Hero .right .wrapper .c2,
+.Hero .right .wrapper .c3,
+.Hero .right .wrapper .c4 {
+  display: inline-block;
+  color: #6cc8c8;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    opacity: 1;
+  }
   100% {
     opacity: 0;
   }
 }
 
-@keyframes arrowBlink {
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
   100% {
     opacity: 0;
   }
