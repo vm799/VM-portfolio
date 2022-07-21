@@ -1,6 +1,6 @@
 import "./Hero.css"
 // import { useEffect, useRef } from "react";
-
+import TypeWriterEffect from 'react-typewriter-effect';
 
  
 export default function Hero (){
@@ -19,22 +19,39 @@ return (
                 <h2> Hi there, I'm</h2>
                 <h1> Vaishali Mehmi</h1>
                 <h3>
-                <br /> 
-            <div class="c1">
-             <div class="type">Web Developer</div>
-            </div>
-            <br />  
+        <span>
 
-            <div class="c2">
-             <div class="type2">Web Designer</div>
-            </div>
-            <br />
+        <TypeWriterEffect
+        textStyle={{
+          fontWeight: 300,
+          fontSize: '1.5em',
+          color: 'rgb(176, 3, 89)',
+        }}
+        startDelay={2000}
+        cursorColor="rgb(176, 3, 89)"
+        multiText={[
+          'Software engineer',
+          'Web designer',
+          'Ux Designer',
+          'Clinical Optometrist',
+          'Hockey & Cricket Coach',
+          'Nutritional Therapist',
+          'Software engineer'
+        ]}
+        multiTextDelay={1000}
+        typeSpeed={100}
+      />
 
-            <div class="c3">
-             <div class="type3">UX Designer</div>
-            </div>
-            </h3>
-            </div>
+
+
+
+            </span>
+          </h3>
         </div>
-    </div>  
-  )}
+        <a href="#portfolio">
+          <img src="assets/down.png" alt="" />
+        </a>
+      </div>
+    </div>
+  );
+}

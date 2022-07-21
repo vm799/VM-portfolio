@@ -1,8 +1,20 @@
 .Hero {
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .Hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .Hero .left {
@@ -15,29 +27,42 @@
 .Hero .left .imgContainer {
   width: 700px;
   height: 700px;
-  background: #07d9e2;
+  background-color: #b00359;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   float: right;
 }
 
-.Hero .left img {
-  height: 60%;
+@media (max-width: 768px) {
+  .Hero .left .imgContainer {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+.Hero .left .imgContainer img {
+  height: 90%;
+}
+
+@media (max-width: 768px) {
+  .Hero .left .imgContainer img {
+    height: 50%;
+  }
 }
 
 .Hero .right {
   -webkit-box-flex: 0.5;
       -ms-flex: 0.5;
           flex: 0.5;
-  background-color: white;
   position: relative;
 }
 
@@ -57,82 +82,48 @@
           justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .Hero .right .wrapper {
+    padding-left: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .Hero .right .wrapper h1 {
-  font-size: 45px;
-  margin-top: 0.5em;
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .Hero .right .wrapper h1 {
+    font-size: 40px;
+  }
 }
 
 .Hero .right .wrapper h2 {
   font-size: 35px;
-  font-weight: 100;
 }
 
 .Hero .right .wrapper h3 {
   font-size: 30px;
-  background: -webkit-linear-gradient(#e705ba, #07d9e2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 400;
 }
 
-.Hero .right .wrapper h3 .type {
-  font-size: 2.5rem;
-  overflow: hidden;
-  border-right: 0.08em solid #c300ff;
-  white-space: nowrap;
-  width: 0;
-  -webkit-animation: typing 1s steps(25, end) forwards;
-          animation: typing 1s steps(25, end) forwards;
-}
-
-.Hero .right .wrapper h3 .type2 {
-  font-size: 2.5rem;
-  overflow: hidden;
-  border-right: 0.08em solid #8193ec;
-  white-space: nowrap;
-  width: 0;
-  -webkit-animation: typing 1s steps(25, end) forwards;
-          animation: typing 1s steps(25, end) forwards;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-
-.Hero .right .wrapper h3 .type3 {
-  font-size: 2.5rem;
-  overflow: hidden;
-  border-right: 0.08em solid #0cd2c8;
-  white-space: nowrap;
-  width: 0;
-  -webkit-animation: typing 5s steps(25, end) forwards;
-          animation: typing 5s steps(25, end) forwards;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-}
-
-.Hero .right .wrapper .c1,
-.Hero .right .wrapper .c2,
-.Hero .right .wrapper .c3,
-.Hero .right .wrapper .c4 {
-  display: inline-block;
-  color: #6cc8c8;
-}
-
-@-webkit-keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
+@media (max-width: 768px) {
+  .Hero .right .wrapper h3 {
+    font-size: 20px;
   }
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+.Hero .right .wrapper h3 span {
+  font-size: inherit;
+  color: crimson;
+}
+
+.Hero .right .wrapper h3 .ityped-cursor {
+  -webkit-animation: blink 1s infinite;
+          animation: blink 1s infinite;
 }
 
 @-webkit-keyframes blink {
@@ -148,6 +139,30 @@
   50% {
     opacity: 1;
   }
+  100% {
+    opacity: 0;
+  }
+}
+
+.Hero .right a {
+  position: absolute;
+  bottom: 10px;
+  left: 40%;
+}
+
+.Hero .right a img {
+  width: 30px;
+  -webkit-animation: arrowBlink 2s infinite;
+          animation: arrowBlink 2s infinite;
+}
+
+@-webkit-keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes arrowBlink {
   100% {
     opacity: 0;
   }
