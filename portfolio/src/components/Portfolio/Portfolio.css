@@ -1,5 +1,4 @@
 .Portfolio {
-  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,10 +9,24 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 3em;
+  margin-bottom: 4em;
+}
+
+@media (max-width: 768px) {
+  .Portfolio {
+    font-size: 40px;
+  }
 }
 
 .Portfolio h1 {
   font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .Portfolio h1 {
+    font-size: 40px;
+  }
 }
 
 .Portfolio ul {
@@ -23,6 +36,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 2em;
+}
+
+@media (max-width: 768px) {
+  .Portfolio ul {
+    font-size: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .Portfolio ul li {
@@ -40,7 +62,6 @@
 }
 
 .Portfolio .container {
-  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,9 +75,20 @@
       flex-wrap: nowrap;
 }
 
+@media (max-width: 768px) {
+  .Portfolio .container {
+    height: 12000px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 5px solid blueviolet;
+  }
+}
+
 .Portfolio .container .item {
-  width: 220px;
-  height: 150px;
+  width: 400px;
+  height: 250px;
   border-radius: 20px;
   border: 1px solid lightgrey;
   margin: 10px 20px;
@@ -74,6 +106,15 @@
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
   cursor: pointer;
+  border: 5px solid orange;
+}
+
+@media (max-width: 768px) {
+  .Portfolio .container .item {
+    width: 320px;
+    height: 150px;
+    margin: 5px 0;
+  }
 }
 
 .Portfolio .container .item:hover {

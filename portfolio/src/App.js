@@ -7,7 +7,7 @@ import Works from "./components/Works/Works"
 import "./App.css"
 import { useState } from "react";
 import Menu from "./components/Menu/Menu";
-
+import Slider from "./components/Slider/Slider";
 
 function App() {
   const [menuOpen, setMenuOpen] =useState(false)
@@ -19,6 +19,7 @@ function App() {
      <Hero />
      <Portfolio />
      <Works />
+     <Slider />
      <Testimonials />
      <Contact />
      </div>

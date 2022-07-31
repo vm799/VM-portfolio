@@ -1,5 +1,4 @@
 .Works {
-  background-color: crimson;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,6 +8,27 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+}
+
+.Works .arrow {
+  height: 50px;
+  position: absolute;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .Works .arrow {
+    display: none;
+  }
+}
+
+.Works .arrow.left {
+  left: 100px;
+}
+
+.Works .arrow.right {
+  right: 100px;
 }
 
 .Works .slider {
@@ -18,6 +38,22 @@
   display: flex;
   position: absolute;
   left: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+@media (max-width: 768px) {
+  .Works .slider {
+    width: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 300px;
+  }
 }
 
 .Works .slider .container {
@@ -31,6 +67,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: crimson;
+  padding: 2em;
 }
 
 .Works .slider .container .item {
@@ -49,11 +87,18 @@
           justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .Works .slider .container .item {
+    width: 80%;
+    height: 200px;
+    margin: 2em;
+  }
+}
+
 .Works .slider .container .item .left {
   -webkit-box-flex: 4;
       -ms-flex: 4;
           flex: 4;
-  background-color: yellow;
   height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,16 +111,92 @@
           justify-content: center;
 }
 
-.Works .slider .container .item .right {
+.Works .slider .container .item .left .leftContainer {
+  width: 90%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.Works .slider .container .item .left .leftContainer .imgContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fdc8b4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .Works .slider .container .item .left .leftContainer .imgContainer {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.Works .slider .container .item .left .leftContainer .imgContainer img {
+  width: 25px;
+}
+
+@media (max-width: 768px) {
+  .Works .slider .container .item .left .leftContainer .imgContainer img {
+    width: 15px;
+  }
+}
+
+.Works .slider .container .item .left h2 {
+  font-size: 20px;
+}
+
+.Works .slider .container .item .left p {
+  font-size: 13px;
+}
+
+.Works .slider .container .item .left span {
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Works .slider .container .right {
   -webkit-box-flex: 8;
       -ms-flex: 8;
           flex: 8;
-  background-color: yellowgreen;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.Works .slider .container .right img {
+  width: 300px;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
 }
 /*# sourceMappingURL=Works.css.map */
