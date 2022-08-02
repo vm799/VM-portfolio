@@ -3,6 +3,7 @@
 .Contact {
     background-color: coral;
     display:flex;
+margin-top: 10em;
 
     @include mobile {
         flex-direction: column;

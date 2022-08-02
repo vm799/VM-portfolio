@@ -4,20 +4,17 @@ export default function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
-      title: "Senior Developer",
-      img:
-        "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      name: "Madan Raj Rajagopal",
+      title: "Founder & CEO, Ludimos",
+      img:"assets/maddy.png",
       icon: "assets/twitter.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
-    },
+""    },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
-      img:
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      name: "Suzanne Lambert",
+      title: "Chair & Trustee, DODI Development Initiative",
+      img: "https://i0.wp.com/dodi.org.uk/wp-content/uploads/2021/07/5.-Suzanne-Lambert-1.jpg?resize=768%2C576&ssl=1",
       icon: "assets/youtube.png",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
@@ -25,8 +22,8 @@ export default function Testimonials() {
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
+      name: "Peter Mitchell",
+      title: "Clinical Manager, NHS Homerton Hospital",
       img:
         "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/linkedin.png",
@@ -38,6 +35,45 @@ export default function Testimonials() {
   return (
     <div className='Testimonials' id="testimonials">
        <h1>Testimonials</h1> 
+
+       <div className="main-testimonial">
+
+ <div className= "card">
+ <div className="top">
+
+
+<img className="user"
+    src="assets/maddy.png"
+    alt="profile pic" />
+
+
+
+ </div>
+ 
+ <p className="center top">
+ Vaishali was involved in designing a couple of interfaces at Ludimos. 
+</p>
+<p className="center middle">
+ Being a cricket coach and a UX expert, she was able to quickly understand the requirements I had and came up with very well thought user journeys. 
+</p>
+<p className="center bottom">
+ She was extremely proactive and she dived into several other aspects of the design, which weren't even a part of my requirement. 
+</p>
+
+<p className="center lowest">
+She was motivated, energetic and lovely to work with. I wish her all the very best for her future endeavors.
+</p>
+
+ <div className="bottom">
+   <h3>Madan Raj Rajagopal</h3>
+   <h4>Founder & CEO, Ludimos</h4>
+ </div>
+</div>
+
+
+
+        
+       </div>
 
        <div className="container">
 {data.map((data)=>(

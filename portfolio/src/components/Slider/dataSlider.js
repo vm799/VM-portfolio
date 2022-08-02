@@ -1,4 +1,4 @@
-const data = [
+const dataSlider = [
     {
       id: "1",
       icon: "./assets/mobile.png",
@@ -34,5 +34,16 @@ const data = [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
         "assets/business_services.png",
+    },
+    {
+      id: "5",
+      icon: "./assets/writing.png",
+      title: "Business",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      img:
+        "assets/business_services.png",
     }
   ];
+
+  export default dataSlider;
