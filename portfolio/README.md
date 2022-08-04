@@ -1,3 +1,11 @@
+# Thankyous
+
+Thank you to The Web School for your kindness and teaching
+https://www.youtube.com/watch?v=og3wCO98HkQ
+
+Thank you for your humour and patient teaching Safak
+https://www.youtube.com/watch?v=7WwtzsSHdpI&t=7303s
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
