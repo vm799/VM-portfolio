@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&family=Roboto:wght@300;700;900&display=swap");
 .Portfolio {
+  margin-top: 5em;
+  padding: 2em 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,8 +12,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 3em;
-  margin-bottom: 4em;
+  background-color: #141414;
+  color: whitesmoke;
 }
 
 @media (max-width: 768px) {
@@ -77,12 +80,10 @@
 
 @media (max-width: 768px) {
   .Portfolio .container {
-    height: 12000px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: 5px solid blueviolet;
   }
 }
 
@@ -106,7 +107,6 @@
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
   cursor: pointer;
-  border: 5px solid orange;
 }
 
 @media (max-width: 768px) {
@@ -128,7 +128,8 @@
 
 .Portfolio .container h3 {
   position: absolute;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .Portfolio .container img {
@@ -137,5 +138,6 @@
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 1;
+  border-radius: 20px;
 }
-/*# sourceMappingURL=Portfolio.css.map */
+/*# sourceMappingURL=portfolio.css.map */

@@ -32,7 +32,7 @@ return (
         multiText={[
           'Software engineer',
           'Web designer',
-          'Ux Designer',
+          'UX Designer',
           'Clinical Optometrist',
           'Hockey & Cricket Coach',
           'Nutritional Therapist',

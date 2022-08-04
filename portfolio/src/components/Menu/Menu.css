@@ -33,7 +33,9 @@
   list-style: none;
   font-size: 30px;
   font-weight: 300;
-  color: #b00359;
+  background: -webkit-linear-gradient(#eee, #b00359);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   width: 60%;
 }
 

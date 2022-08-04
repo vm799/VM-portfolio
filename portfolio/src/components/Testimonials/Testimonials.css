@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&family=Roboto:wght@300;700;900&display=swap");
 .Testimonials {
+  background-color: #141414;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,11 +23,13 @@
 
 .Testimonials h1 {
   font-size: 50px;
+  margin-top: 2em;
+  color: white;
 }
 
 @media (max-width: 768px) {
   .Testimonials h1 {
-    font-size: 20px;
+    font-size: 40px;
   }
 }
 
@@ -44,6 +47,7 @@
 }
 
 .Testimonials .main-testimonial .card {
+  background-color: white;
   width: 65%;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 15px -8px black;
@@ -202,6 +206,7 @@
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
   margin: 1em;
+  background-color: white;
 }
 
 .Testimonials .container .card.featured {

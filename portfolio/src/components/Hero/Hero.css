@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&family=Roboto:wght@300;700;900&display=swap");
 .Hero {
   background-color: white;
   display: -webkit-box;
@@ -25,8 +26,8 @@
 }
 
 .Hero .left .imgContainer {
-  width: 700px;
-  height: 700px;
+  width: 400px;
+  height: 400px;
   background-color: #b00359;
   border-radius: 50%;
   display: -webkit-box;
@@ -39,24 +40,21 @@
       -ms-flex-pack: center;
           justify-content: center;
   float: right;
+  margin-top: 8em;
+  padding-left: 2em;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .Hero .left .imgContainer {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    width: 800px;
+    height: 800px;
   }
 }
 
 .Hero .left .imgContainer img {
-  height: 90%;
-}
-
-@media (max-width: 768px) {
-  .Hero .left .imgContainer img {
-    height: 50%;
-  }
+  height: 100%;
+  -webkit-transform: translateY(0.5em);
+          transform: translateY(0.5em);
 }
 
 .Hero .right {

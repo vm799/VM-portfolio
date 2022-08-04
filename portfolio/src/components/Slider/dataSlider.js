@@ -24,7 +24,7 @@ const dataSlider = [
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
-        "assets/fitness_app.png",
+        "assets/img1.png",
     },
     {
       id: "4",
@@ -33,7 +33,7 @@ const dataSlider = [
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
-        "assets/business_services.png",
+        "assets/img2.png",
     },
     {
       id: "5",
@@ -42,7 +42,7 @@ const dataSlider = [
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
-        "assets/business_services.png",
+        "assets/img3.png",
     }
   ];
 

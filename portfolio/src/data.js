@@ -10,13 +10,13 @@ export const featuredPortfolio =[
         id:2,
         title: "Dodi App",
         img:
-        "#/",
+        "./assets/img5.png",
     },
     {
         id:3,
         title: "Luminos App",
         img:
-        "#/",
+        "./assets/ludimos.png",
     },
 ]
 

@@ -8,8 +8,9 @@ export default function Testimonials() {
       title: "Founder & CEO, Ludimos",
       img:"assets/maddy.png",
       icon: "assets/twitter.png",
-      desc:
-""    },
+      desc:         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+
+   },
     {
       id: 2,
       name: "Suzanne Lambert",
