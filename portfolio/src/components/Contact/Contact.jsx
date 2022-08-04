@@ -22,9 +22,11 @@ setMessage(true)
          
           <h4>your message
           </h4>
-          <textarea></textarea>
+          <textarea  type="text" >
+
+          </textarea>
           <button type="Submit">SEND</button>
-          <br />
+         
           {message && <span>Thank you for leaving me a message, I'll reply shortly  :)
             </span>}
 

@@ -44,24 +44,33 @@
 
 @media (max-width: 768px) {
   .Portfolio ul {
-    font-size: 20px;
+    font-size: 30px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
 .Portfolio ul li {
-  font-size: 14px;
+  font-size: 18px;
   margin-right: 5px;
   padding: 7px;
   border-radius: 10px;
   cursor: pointer;
 }
 
+@media (min-width: 768px) {
+  .Portfolio ul li {
+    font-size: 30px;
+    font-weight: 100;
+    margin: 1em;
+  }
+}
+
 .Portfolio ul li.active {
   background-color: #b00359;
   color: white;
-  font-weight: 100;
+  font-weight: 400;
+  padding: 0.75em 2em;
 }
 
 .Portfolio .container {

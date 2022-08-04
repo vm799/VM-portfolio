@@ -81,8 +81,9 @@
   
   
   .container-dots {
+ 
     position: absolute;
-    bottom: 5px;
+    bottom: 15px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -96,5 +97,5 @@
     background: #f1f1f1;
   }
   .dot.active {
-    background: rgb(32, 32, 32);
+    background: rgba(0, 0, 0, 0.529);
   }

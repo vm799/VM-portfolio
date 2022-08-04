@@ -3,15 +3,14 @@
 .Contact {
     background-color: rgb(20, 20, 20);
     display:flex;
-    margin-top: 10em;
     color: whitesmoke;
- 
+    display:flex;
+    align-items: center;
+    justify-content: center;
 
     @include mobile {
         flex-direction: column;
-        display:flex;
-        align-items: center;
-        justify-content: center;
+       
         
     }
 
@@ -20,8 +19,8 @@
         overflow: hidden;
 
         img{
-            height:100%;
-           width:100%;
+        height:100%;
+        width:100%;
 
            @include mobile {
             padding-top:2em;
@@ -29,25 +28,35 @@
         }
     }
     .right{
+       
         flex:1;
         display:flex;
         flex-direction: column;
-            align-items: center;
-            justify-content: center;
+        align-items: flex-start;
+        margin: 0 6em;    
+
+        @include mobile {
+            padding-left:4em;
+        }
 
 
         h2{
             font-size: 40px;
-            margin-top: 2em;
+            margin-top: 1em;
             margin-bottom: 1em;
             
+        }
+
+        h4{
+            color: rgb(182, 49, 75);
+
         }
 
         form{
             width: 80%;
             height: 70%;
            margin-bottom: 0.25em;
-           border: 5px solid pink;
+          
             // display:flex;
             // flex-direction: column;
             // align-items: center;
@@ -56,44 +65,41 @@
             
         
             input{
-                border: 5px solid pink;
                 width: 300px;
                 height:50px;
                 font-size: 14px;
                 border: none;
                 color:white;
+                letter-spacing: 2px;
                 background-color: rgb(20, 20, 20);  
                 padding-left: 1em;
                 // @include mobile
                 //     width:400px;
                 //     height:20px;
-                
 
                 
             }
+            input[type=text] {
+                // padding: 12px 20px;
+                border:none;
+                border-bottom: 1px solid rgb(182, 49, 75); 
+                box-sizing: border-box;
+                margin-bottom:1em;
+              }
 
-            input::placeholder{
-                border: 5px solid pink;
-                font-weight: bold;
-                opacity: .5;
-                color: red;
-                background-color: hotpink;
-            }
+          
 
-            ::-webkit-input-placeholder {
-                color: white;
-                background-color: hotpink;
-            }
+           
 
             textarea{
                 border: 10px white solid;
-                padding-left: 1em;
                 width:300px;
-                height:100px;
-                font-size: 14px;
-                margin: 1.25em;
+                height:50px;
+         
                 border: none;
                 color:white;
+                letter-spacing: 2px;
+                line-height: 20px;;
                 background-color: rgb(20, 20, 20);   
                 // @include mobile{
                 //     width:200px;
@@ -101,15 +107,24 @@
                 // }
             }
 
+            textarea[type=text] {
+                letter-spacing: 2px;
+                border:none;
+                border-bottom: 1px solid rgb(182, 49, 75); 
+                box-sizing: border-box;
+              }
+
+
             button{
-                border: 5px pink solid;
+                display:block;
+                margin: 2em 0;
                 width: 150px;
                 height: 30px;
                 padding: bottom 10px;
                 justify-content: center;
                 align-items: flex-start;
                 color:white;
-                background-color: crimson;                  
+                background-color: rgb(182, 49, 75);                  
                 border:none;
                 border-radius: 10px;
                 font-weight: 500;

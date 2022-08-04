@@ -8,7 +8,7 @@ export default function Testimonials() {
       title: "Founder & CEO, Ludimos",
       img:"assets/maddy.png",
       icon: "assets/twitter.png",
-      desc:         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+      desc:         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
 
    },
     {
@@ -18,8 +18,8 @@ export default function Testimonials() {
       img: "https://i0.wp.com/dodi.org.uk/wp-content/uploads/2021/07/5.-Suzanne-Lambert-1.jpg?resize=768%2C576&ssl=1",
       icon: "assets/youtube.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
-      featured: true,
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        featured: true,
     },
     {
       id: 3,
@@ -30,6 +30,7 @@ export default function Testimonials() {
       icon: "assets/linkedin.png",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        
     },
   ];
 
@@ -65,7 +66,7 @@ export default function Testimonials() {
 She was motivated, energetic and lovely to work with. I wish her all the very best for her future endeavors.
 </p>
 
- <div className="bottom">
+ <div className=" bottom">
    <h3>Madan Raj Rajagopal</h3>
    <h4>Founder & CEO, Ludimos</h4>
  </div>

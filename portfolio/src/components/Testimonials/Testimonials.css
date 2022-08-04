@@ -163,7 +163,7 @@
 }
 
 .Testimonials .container {
-  width: 700px;
+  width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,7 +189,7 @@
 }
 
 .Testimonials .container .card {
-  width: 250px;
+  width: 350px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 15px -8px black;
           box-shadow: 0px 0px 15px -8px black;
@@ -200,8 +200,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 20px;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
@@ -209,16 +213,14 @@
   background-color: white;
 }
 
-.Testimonials .container .card.featured {
-  width: 300px;
-  margin: 0 30px;
-}
-
 @media (max-width: 768px) {
-  .Testimonials .container .card.featured {
-    height: 180px;
+  .Testimonials .container .card {
     width: 250px;
   }
+}
+
+.Testimonials .container .card.featured {
+  margin: 0 30px;
 }
 
 .Testimonials .container .card:hover {
@@ -287,7 +289,8 @@
 }
 
 .Testimonials .container .bottom h3 {
-  margin-bottom: 5px;
+  margin: 10px 5px 0;
+  border: 5px solid pink;
 }
 
 @media (max-width: 768px) {
@@ -298,6 +301,7 @@
 
 .Testimonials .container .bottom h4 {
   color: gray;
+  margin: 0 1em;
 }
 
 @media (max-width: 768px) {

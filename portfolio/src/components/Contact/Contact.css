@@ -4,8 +4,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 10em;
   color: whitesmoke;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -14,15 +20,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 
@@ -55,89 +52,75 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 6em;
+}
+
+@media (max-width: 768px) {
+  .Contact .right {
+    padding-left: 4em;
+  }
 }
 
 .Contact .right h2 {
   font-size: 40px;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.Contact .right h4 {
+  color: #b6314b;
 }
 
 .Contact .right form {
   width: 80%;
   height: 70%;
   margin-bottom: 0.25em;
-  border: 5px solid pink;
 }
 
 .Contact .right form input {
-  border: 5px solid pink;
   width: 300px;
   height: 50px;
   font-size: 14px;
   border: none;
   color: white;
+  letter-spacing: 2px;
   background-color: #141414;
   padding-left: 1em;
 }
 
-.Contact .right form input::-webkit-input-placeholder {
-  border: 5px solid pink;
-  font-weight: bold;
-  opacity: .5;
-  color: red;
-  background-color: hotpink;
-}
-
-.Contact .right form input:-ms-input-placeholder {
-  border: 5px solid pink;
-  font-weight: bold;
-  opacity: .5;
-  color: red;
-  background-color: hotpink;
-}
-
-.Contact .right form input::-ms-input-placeholder {
-  border: 5px solid pink;
-  font-weight: bold;
-  opacity: .5;
-  color: red;
-  background-color: hotpink;
-}
-
-.Contact .right form input::placeholder {
-  border: 5px solid pink;
-  font-weight: bold;
-  opacity: .5;
-  color: red;
-  background-color: hotpink;
-}
-
-.Contact .right form ::-webkit-input-placeholder {
-  color: white;
-  background-color: hotpink;
+.Contact .right form input[type=text] {
+  border: none;
+  border-bottom: 1px solid #b6314b;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 1em;
 }
 
 .Contact .right form textarea {
   border: 10px white solid;
-  padding-left: 1em;
   width: 300px;
-  height: 100px;
-  font-size: 14px;
-  margin: 1.25em;
+  height: 50px;
   border: none;
   color: white;
+  letter-spacing: 2px;
+  line-height: 20px;
   background-color: #141414;
 }
 
+.Contact .right form textarea[type=text] {
+  letter-spacing: 2px;
+  border: none;
+  border-bottom: 1px solid #b6314b;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .Contact .right form button {
-  border: 5px pink solid;
+  display: block;
+  margin: 2em 0;
   width: 150px;
   height: 30px;
   padding: bottom 10px;
@@ -148,7 +131,7 @@
       -ms-flex-align: start;
           align-items: flex-start;
   color: white;
-  background-color: crimson;
+  background-color: #b6314b;
   border: none;
   border-radius: 10px;
   font-weight: 500;
