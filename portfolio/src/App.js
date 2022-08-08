@@ -3,7 +3,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonials from "./components/Testimonials/Testimonials";
-import Works from "./components/Works/Works"
+import TestimonialsSlider from "./components/Testimonial_Slider/Testimonial_Slider"
 import "./App.css"
 import { useState } from "react";
 import Menu from "./components/Menu/Menu";
@@ -19,8 +19,9 @@ function App() {
      <Hero />
      <Portfolio />
      {/* <Works /> */}
-     <Slider />
+   <TestimonialsSlider />
      <Testimonials />
+     <Slider />
      <Contact />
      </div>
     </div>

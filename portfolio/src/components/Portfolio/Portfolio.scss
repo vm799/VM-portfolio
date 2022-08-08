@@ -31,7 +31,7 @@
         list-style:none;
         display:flex;
         margin-top: 2em;
-        
+       
 
         @include mobile{
             font-size: 30px;
@@ -45,6 +45,7 @@
             padding: 7px;
             border-radius: 10px;
             cursor: pointer;
+            font-weight: 100;
 
             @include desktop{
                 font-size: 30px;
@@ -53,8 +54,8 @@
             }
 
             &.active{
-                background-color: rgb(176, 3, 89);
-                color:white;
+                background-color: rgba(7,217,226,1);
+                color:crimson;
                 font-weight: 400;
                 padding: 0.75em 2em;
             }
@@ -80,7 +81,8 @@
                 width: 400px;
                 height: 250px;
                 border-radius: 20px;
-                border: 1px solid lightgrey;
+                // border: 1px solid lightgrey;
+                box-shadow: 5px 5px 15px rgba(220, 220, 220, 0.13);
                 margin: 10px 20px;
                 display: flex;
                 align-items: center;
@@ -93,13 +95,14 @@
 
                 @include mobile{
                     width: 320px;
-                    height: 150px;
-                    margin:5px 0;
+                    height: 200px;
+                    margin:15px 0;
  
                 }
 
                 &:hover{
-                    background-color: rgb(176, 3, 89);
+                    background: rgb(231,5,186);
+                    background: linear-gradient(0deg, rgba(231,5,186,1) 0%, rgba(226,7,141,1) 50%, rgba(7,217,226,1) 100%);
     
                     img{
                         opacity:0.2;
@@ -111,7 +114,7 @@
             h3{
                 position: absolute;
                 font-size: 30px;
-              font-weight: 300;
+              font-weight: 400;
             }
 
             img{

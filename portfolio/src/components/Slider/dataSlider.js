@@ -6,7 +6,7 @@ const dataSlider = [
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       img:
-        "assets/dodi.png",
+        "VM-portfolio/assets/dodi.png",
     },
     {
       id: "2",
@@ -15,7 +15,7 @@ const dataSlider = [
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
-        "assets/crypto.png",
+        "VM-portfolio/assets/crypto.png",
     },
     {
       id: "3",
@@ -24,7 +24,7 @@ const dataSlider = [
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
-        "assets/img1.png",
+        "VM-portfolio/assets/img1.png",
     },
     {
       id: "4",
@@ -33,7 +33,7 @@ const dataSlider = [
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
-        "assets/img2.png",
+        "VM-portfolio/assets/img2.png",
     },
     {
       id: "5",
@@ -42,7 +42,7 @@ const dataSlider = [
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
-        "assets/img3.png",
+        "VM-portfolio/assets/img3.png",
     }
   ];
 

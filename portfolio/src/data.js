@@ -2,42 +2,41 @@
 export const featuredPortfolio =[
     {
         id:1,
-        title: "Social Media App",
+        title: "FLY UX",
         img:
-        "https://www.bournemouth.ac.uk/sites/default/files/styles/bournemouth_wysiwyg/public/assets/images/student-project-bank-summary.jpg?itok=-ujqm23o"
-    },
+"VM-portfolio/assets/UXDesign.png"    },
     {
         id:2,
-        title: "Dodi App",
+        title: "Blockchain",
         img:
-        "./assets/img5.png",
+        "VM-portfolio/assets/blockchain.jpg",
     },
     {
         id:3,
-        title: "Luminos App",
+        title: "Wordle App",
         img:
-        "./assets/ludimos.png",
+        "VM-portfolio/assets/wordle_clone.png",
     },
 ]
 
 export const webPortfolio =[
     {
         id:1,
-        title: "Social Media App",
+        title: "NFT website",
         img:
-        "#/"
+        "VM-portfolio/assets/img2.png"
     },
     {
         id:2,
-        title: "Social Media App",
+        title: "DODI",
         img:
-        "#/",
+        "VM-portfolio/assets/DODI_website.png",
     },
     {
         id:3,
-        title: "Social Media App",
+        title: "Fitness App",
         img:
-        "#/",
+        "VM-portfolio/assets/img3.png",
     },
 
 ]
@@ -45,42 +44,42 @@ export const webPortfolio =[
 export const mobilePortfolio =[
     {
         id:1,
-        title: "Social Media App",
+        title: "DODI",
         img:
-        "#/"
+        "VM-portfolio/assets/DODI_mobile.png"
     },
     {
         id:2,
-        title: "Social Media App",
+        title: "Optom Tutors",
         img:
-        "#/",
+        "VM-portfolio/assets/img1.png",
     },
     {
         id:3,
-        title: "Social Media App",
+        title: "Home Chef",
         img:
-        "#/",
+        "VM-portfolio/assets/figma_design.png",
     },
 ]
 
 export const designPortfolio =[
     {
         id:1,
-        title: "Social Media App",
+        title: "Home",
         img:
-        "#/"
+        "VM-portfolio/assets/Chef.png"
     },
     {
         id:2,
-        title: "Social Media App",
+        title: "Ludimos",
         img:
-        "#/",
+        "VM-portfolio/assets/ludimos_desktop.png",
     },
     {
         id:3,
         title: "Social Media App",
         img:
-        "#/",
+        "VM-portfolio/assets/img4.png",
     },
 ]
 
