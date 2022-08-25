@@ -38,7 +38,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #f1f1f168;
+    background: #f7069a68;
     /* background: #e40909; */
     /* border: 1px solid rgba(34, 34, 34, 0.287); */
     border:none;
@@ -47,12 +47,27 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-  
   }
 
+  @media (max-width:600px){
+.btn-slide{
+  justify-content: space-between;
+  width: 20px;
+  height: 20px;
+}
+  }
+  
+
   .btn-slide:hover{
-    border: 1px solid rgba(34, 34, 34, 0.287);
-    background: #f8066f47;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.961);
+    background: #fa036e;
+    border: 1px solid rgba(255, 255, 255, 0.565);
+  }
+
+  .btn-slide:on{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.961);
+    background: #fa036e;
+    border: 1px solid rgba(255, 255, 255, 0.565);
   }
   
   .btn-slide img {

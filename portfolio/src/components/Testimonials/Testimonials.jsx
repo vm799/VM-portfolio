@@ -45,7 +45,7 @@ export default function Testimonials() {
 
 
 <img className="user"
-    src="assets/maddy.png"
+    src="VM-Portfolio/assets/maddy.png"
     alt="profile pic" />
 
 

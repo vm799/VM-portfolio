@@ -17,14 +17,19 @@ setMessage(true)
       <div className="right">
         <h2> Contact.</h2>
         <form onSubmit={handleSubmit}>
+          <div className="email-container">
           <h4>your email</h4>
           <input type="text"  />
+          </div>
          
+          <div className="message-container">
           <h4>your message
           </h4>
           <textarea  type="text" >
+          
 
           </textarea>
+          </div>
           <button type="Submit">SEND</button>
          
           {message && <span>Thank you for leaving me a message, I'll reply shortly  :)

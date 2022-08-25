@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import '.Testimonial_Slider.css'
+import './Testimonial_Slider.css'
 import Testimonial_dataSlider from './Testimonial_dataSlider'
-import BtnSlider from './BtnSlider'
+import BtnSlider from '../Slider/BtnSlider'
 
 export default function TestimonialSlider() {
 
@@ -30,22 +30,40 @@ else if (slideIndex === Testimonial_dataSlider.length){
     }
 
   return (
-    <div className='container-slider'>
 
-{Testimonial_dataSlider.map((obj,index)=>{
-    return (
-        <div 
-        key={obj.id}
-        className={slideIndex === index + 1 ? "slide active-anim" : "slide"}>
+    <div className='Testimonials' id="testimonials">
+    <h1>Testimonials</h1> 
 
-            <img
-            src={process.env.PUBLIC_URL + `/assets/img${index + 1}.png`} 
-            alt="" 
-            />
-            <p className='slider-title'>{obj.title}</p>
-        </div>
+        <div className='container-slider'>
+
+            {Testimonial_dataSlider.map(( obj, index )=>{
+                return (
+< div 
+key={obj.id}
+className={slideIndex === index + 1 ? "slide active-anim" : "slide"}>
+                
+                <div className="card">
+
+                <div className="top">
+                    <img className="user"
+                        src={obj.img}
+                        alt="profile pic" />
+ </div>
+ <div className="center">
+   {obj.desc}</div>
+
+ <div className="bottom">
+   <h3>{obj.name}</h3>
+   <h4>{obj.title}</h4>
+ </div>
+</div>
+</div>
+
+
+
     )
 })}
+
 <BtnSlider moveSlide={nextSlide} direction={"next"}/>
 <BtnSlider moveSlide={prevSlide} direction={"prev"}/>
 
@@ -58,5 +76,7 @@ else if (slideIndex === Testimonial_dataSlider.length){
     ))}
     </div>
     </div>
+    </div>
+
   )
     }

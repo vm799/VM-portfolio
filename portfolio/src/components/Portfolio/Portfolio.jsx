@@ -75,7 +75,9 @@ switch(selected){
                    src={data.img}
                    alt=""
                    />
+                  
                    <h3>{data.title}</h3>
+                  
                </div>
                ))}
                
