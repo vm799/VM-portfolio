@@ -13,7 +13,7 @@
           align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Testimonials {
     -ms-flex-pack: distribute;
         justify-content: space-around;
@@ -26,7 +26,7 @@
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Testimonials h1 {
     font-size: 40px;
   }
@@ -41,7 +41,7 @@
   padding: 1em 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Testimonials .container-slider {
     width: 400px;
   }
@@ -60,7 +60,7 @@
   opacity: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Testimonials .container-slider {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -97,7 +97,7 @@
   background-color: white;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 868px) {
   .Testimonials .container-slider .card {
     padding: 5em;
   }
@@ -126,7 +126,7 @@
   margin-top: -2.5em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 868px) {
   .Testimonials .container-slider .card .top img {
     height: 125px;
     width: 125px;
@@ -142,7 +142,7 @@
   margin: 0 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Testimonials .container-slider .card .top.user {
     width: 140px;
     height: 140px;
@@ -158,7 +158,7 @@
   font-weight: 300;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 868px) {
   .Testimonials .center {
     padding: 3em;
     line-height: 25px;
@@ -188,7 +188,7 @@
   font-weight: 800;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Testimonials .bottom h3 {
     font-size: 14px;
   }
@@ -199,7 +199,7 @@
   margin: 0 1em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Testimonials .bottom h4 {
     font-size: 14px;
   }

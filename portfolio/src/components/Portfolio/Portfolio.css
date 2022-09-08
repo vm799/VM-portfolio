@@ -16,7 +16,7 @@
   color: whitesmoke;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Portfolio {
     font-size: 40px;
     margin-top: 3em;
@@ -27,7 +27,7 @@
   font-size: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Portfolio h1 {
     font-size: 40px;
   }
@@ -50,7 +50,7 @@
           justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Portfolio ul {
     font-size: 30px;
     -ms-flex-wrap: wrap;
@@ -67,7 +67,7 @@
   font-weight: 100;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 868px) {
   .Portfolio ul li {
     font-size: 30px;
     font-weight: 100;
@@ -96,7 +96,7 @@
       flex-wrap: nowrap;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Portfolio .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -128,7 +128,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Portfolio .container .item {
     width: 320px;
     height: 200px;

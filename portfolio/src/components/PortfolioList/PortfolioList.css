@@ -16,7 +16,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 868px) {
   .portfoliolist li {
     margin-right: 20px;
   }

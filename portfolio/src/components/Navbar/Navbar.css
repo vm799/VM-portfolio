@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&family=Roboto:wght@300;700;900&display=swap");
 .Navbar {
-  width: 100vw;
+  width: 100%;
   height: 70px;
   background-color: white;
   color: #15023a;
@@ -22,6 +22,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  border: 5px solid pink;
 }
 
 .Navbar .wrapper .left {
@@ -41,30 +44,61 @@
   margin-right: 40px;
 }
 
-.Navbar .wrapper .left .itemContainer {
+.Navbar .wrapper .itemContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 5px solid pink;
+}
+
+@media (min-width: 868px) {
+  .Navbar .wrapper .itemContainer {
+    border: 5px solid #c0fcff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.Navbar .wrapper .itemContainer .linkedin {
+  width: 40px;
+  height: 10px;
+}
+
+.Navbar .wrapper .itemContainer a {
+  width: 100px;
+  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
 }
 
-@media (max-width: 500px) {
-  .Navbar .wrapper .left .itemContainer {
-    display: none;
-  }
-}
-
-.Navbar .wrapper .left .itemContainer .icon {
-  font-size: 18px;
-  margin-right: 5px;
-}
-
-.Navbar .wrapper .left .itemContainer span {
-  font-size: 15px;
-  font-weight: 500;
+.Navbar .wrapper .itemContainer a img {
+  width: 180%;
+  height: 200%;
 }
 
 .Navbar .wrapper .right .hamburger {

@@ -9,11 +9,15 @@ export default function Navbar( {menuOpen, setMenuOpen}) {
             vm.
           </a>
           </div>
-          {/* <div className="itemContainer">
-            <span> +44 7950339567</span>
-          </div> */}
+         
           <div className="itemContainer">
-            <span>contact here</span>
+            <a href=" https://www.linkedin.com/in/vaishali7/" className="linkedin">
+            <img src="/VM-portfolio/assets/linkedin.svg" alt="clickable linkedin icon"/></a>
+           
+            <a href="mailto:vaishalimehmi.co.uk" className="email">
+            <img src="/VM-portfolio/assets/email.svg" alt="clickable email icon"/></a>
+          
+           
             </div>
        
         <div className="right">
