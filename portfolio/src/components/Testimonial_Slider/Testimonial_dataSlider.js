@@ -27,7 +27,7 @@ const Testimonial_dataSlider = [
         "https://www.eyenews.uk.com/media/5718/peter-mitchell.jpg?anchor=center&mode=crop&width=190&height=200&rnd=133002939440000000",
    
       desc:
-        "I have worked with Vaishali as senior members of the clinical team at Homerton University Hospital for over 15 years and in that time have come to respect her attention to detail and care for effective communication that underpins all her work. Accurate and effective communication is one of her key drivers.  She has the ability to make existing content simple and clear to understand. With the user/patient as the focus of all we do and aiming to build a strong team spirit working in collaboration to deliver an excellent service.",
+        "I have worked with Vaishali in the senior clinical team at Homerton University Hospital for over 15 years and in that time have come to respect her attention to detail that underpins all her work. Accurate and effective communication is one of her key drivers.  She has the ability to make existing content simple and clear to understand. With the user/patient as the focus of all we do and a strong team spirit to deliver an excellent service.",
         
     },
   ];

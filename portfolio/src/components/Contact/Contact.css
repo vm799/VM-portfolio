@@ -14,7 +14,7 @@
           justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Contact {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -35,7 +35,7 @@
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Contact .left img {
     padding-top: 2em;
   }
@@ -58,7 +58,7 @@
   margin: 0 6em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Contact .right {
     padding-left: 4em;
   }

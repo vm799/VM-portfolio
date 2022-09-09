@@ -20,7 +20,12 @@ export default function Menu( {menuOpen, setMenuOpen}) {
             <li>
                 <a href="#contact"> get in touch</a>
             </li>
+            <li>
+            <a href=" https://www.linkedin.com/in/vaishali7/" className="linkedin">
+            <img src="/VM-portfolio/assets/linkedin.svg" alt="clickable linkedin icon"/></a>
+            </li>
         </ul>
+         
     </div>
   );
 }

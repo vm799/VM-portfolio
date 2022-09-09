@@ -10,15 +10,7 @@ export default function Navbar( {menuOpen, setMenuOpen}) {
           </a>
           </div>
          
-          <div className="itemContainer">
-            <a href=" https://www.linkedin.com/in/vaishali7/" className="linkedin">
-            <img src="/VM-portfolio/assets/linkedin.svg" alt="clickable linkedin icon"/></a>
-           
-            <a href="mailto:vaishalimehmi.co.uk" className="email">
-            <img src="/VM-portfolio/assets/email.svg" alt="clickable email icon"/></a>
-          
-           
-            </div>
+        
        
         <div className="right">
           <div className="hamburger" onClick= {()=> setMenuOpen(!menuOpen)}>

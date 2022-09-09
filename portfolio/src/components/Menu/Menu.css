@@ -52,4 +52,9 @@
 .menu ul li:hover {
   font-weight: 500;
 }
+
+.menu ul li img {
+  width: 70px;
+  height: 45px;
+}
 /*# sourceMappingURL=Menu.css.map */

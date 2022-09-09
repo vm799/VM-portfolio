@@ -7,7 +7,7 @@
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Hero {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -44,7 +44,7 @@
   margin-top: 8em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 868px) {
   .Hero .left .imgContainer {
     width: 800px;
     height: 800px;
@@ -80,7 +80,7 @@
           justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Hero .right .wrapper {
     padding-left: 0;
     -webkit-box-align: center;
@@ -94,7 +94,7 @@
   margin: 10px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Hero .right .wrapper h1 {
     font-size: 40px;
   }
@@ -108,7 +108,7 @@
   font-size: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .Hero .right .wrapper h3 {
     font-size: 20px;
   }
