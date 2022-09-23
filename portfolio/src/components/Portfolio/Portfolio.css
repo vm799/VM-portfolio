@@ -105,6 +105,13 @@
   }
 }
 
+.Portfolio .container h3 {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
+}
+
 .Portfolio .container .item {
   width: 400px;
   height: 250px;
@@ -121,11 +128,21 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: white;
   position: relative;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
   cursor: pointer;
+  background: #f815cb;
+  background: -webkit-gradient(linear, left bottom, left top, from(#b00359), color-stop(50%, #624758), to(#07d9e2));
+  background: linear-gradient(0deg, #b00359 0%, #624758 50%, #07d9e2 100%);
+  border: 1px solid #b00359;
+  -webkit-box-shadow: 0px 5px 5px #b00359;
+          box-shadow: 0px 5px 5px #b00359;
+  color: white;
+}
+
+.Portfolio .container .item img {
+  opacity: 0;
 }
 
 @media (max-width: 868px) {
@@ -137,30 +154,42 @@
 }
 
 .Portfolio .container .item:hover {
-  background: #e705ba;
-  background: -webkit-gradient(linear, left bottom, left top, from(#b00359), color-stop(50%, #624758), to(#07d9e2));
-  background: linear-gradient(0deg, #b00359 0%, #624758 50%, #07d9e2 100%);
-  border: 1px solid #b00359;
-  -webkit-box-shadow: 0px 5px 5px #b00359;
-          box-shadow: 0px 5px 5px #b00359;
+  background: rgba(20, 20, 20, 0);
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  z-index: 100;
+  -webkit-transition: -webkit-transform 2s filter 3s  ease-in-out;
+  transition: -webkit-transform 2s filter 3s  ease-in-out;
+  transition: transform 2s filter 3s  ease-in-out;
+  transition: transform 2s filter 3s  ease-in-out, -webkit-transform 2s filter 3s  ease-in-out;
 }
 
 .Portfolio .container .item:hover img {
-  opacity: 0.2;
+  opacity: 1;
   z-index: 0;
 }
 
-.Portfolio .container h3 {
-  position: absolute;
-  font-size: 30px;
-  font-weight: 400;
+.Portfolio .container .item:hover h3 {
+  color: rgba(240, 248, 255, 0);
+}
+
+@media (max-width: 868px) {
+  .Portfolio .container .item:hover {
+    -webkit-transition: visibility .25s ease-in-out, -webkit-transform 1s;
+    transition: visibility .25s ease-in-out, -webkit-transform 1s;
+    transition: transform 1s, visibility .25s ease-in-out;
+    transition: transform 1s, visibility .25s ease-in-out, -webkit-transform 1s;
+  }
 }
 
 .Portfolio .container img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 300px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
   z-index: 1;
   border-radius: 20px;
 }

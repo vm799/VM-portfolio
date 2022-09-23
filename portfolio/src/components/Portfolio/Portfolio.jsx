@@ -6,7 +6,7 @@ import {
     webPortfolio,
     mobilePortfolio,
     designPortfolio,
-    contentPortfolio,
+    
 }   from "../../data"
 
 export default function Portfolio() {
@@ -20,7 +20,7 @@ export default function Portfolio() {
         },
         {
             id: "web",
-            title:"Web App",
+            title:"UX",
         },
        
         {
@@ -29,7 +29,7 @@ export default function Portfolio() {
         },
         {
             id: "design",
-            title:"Design",
+            title:"Project Javascript",
         },
       
 
@@ -71,10 +71,11 @@ switch(selected){
            <div className="container">
                {data.map((data)=>(
                 <div className="item">
-                   <img
+                  <a href={data.web}> 
+                  <img
                    src={data.img}
                    alt=""
-                   />
+                   /> </a>
                   
                    <h3>{data.title}</h3>
                   
