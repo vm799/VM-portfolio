@@ -11,9 +11,9 @@ export default function Menu( {menuOpen, setMenuOpen}) {
             <li>
                 <a href="#portfolio"> my portfolio</a>
             </li>
-            <li>
+            {/* <li>
                 <a href="#works"> my projects</a>
-            </li>
+            </li> */}
             <li>
                 <a href="#testimonials"> testimonials</a>
             </li>
