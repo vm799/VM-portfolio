@@ -122,7 +122,18 @@
   background-color: #141414;
 }
 
-.Contact .right form textarea[type=text] {
+.Contact .right textarea[type=text] {
+  letter-spacing: 2px;
+  border: none;
+  border-bottom: 1px solid #b6314b;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 1em;
+  color: #b6314b;
+  border: 5px solid #ff2fc1;
+}
+
+.Contact .right textarea[name=message] {
   letter-spacing: 2px;
   border: none;
   border-bottom: 1px solid #b6314b;
@@ -132,57 +143,58 @@
   color: #b6314b;
 }
 
-.Contact .right form textarea[name=message] {
-  letter-spacing: 2px;
-  border: none;
-  border-bottom: 1px solid #b6314b;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-top: 1em;
-  color: #b6314b;
-}
-
-.Contact .right form input[type=email] {
+.Contact .right input[type=email] {
   border: none;
   border-bottom: 1px solid #b6314b;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-bottom: 1em;
   color: #b6314b;
+  border: 5px solid #ff2fc1;
 }
 
-.Contact .right form input[type=submit] {
+.Contact .right input[type=submit] {
   display: block;
-  margin: 2em 0;
-  width: 150px;
-  height: 30px;
-  padding: bottom 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: white;
+  padding: 10px;
   background-color: #b6314b;
   border: none;
   border-radius: 10px;
   font-weight: 500;
+  float: left;
+  position: relative;
+  top: 0;
   cursor: pointer;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 4px rgba(246, 245, 245, 0.791);
+          box-shadow: 0px 4px rgba(246, 245, 245, 0.791);
+  margin: 10px 7px 11px 0;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-.Contact .right form input[type=submit]:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  -webkit-box-shadow: 5px 2px 5px #950755;
-          box-shadow: 5px 2px 5px #950755;
+.Contact .right input[type=submit]:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: 5px 2px 5px #f388c2;
+          box-shadow: 5px 2px 5px #f388c2;
   -webkit-transition: -webkit-transform 2s ease-in-out;
   transition: -webkit-transform 2s ease-in-out;
   transition: transform 2s ease-in-out;
   transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
 }
 
-.Contact .right form span {
+.Contact .right input[type=submit]:active {
+  -webkit-box-shadow: 0px 0px #717a33;
+          box-shadow: 0px 0px #717a33;
+  top: 4px;
+}
+
+.Contact .right span {
   color: whitesmoke;
 }
 /*# sourceMappingURL=Contact.css.map */
