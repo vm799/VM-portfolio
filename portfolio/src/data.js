@@ -86,7 +86,7 @@ export const designPortfolio =[
         title: "Wordle App",
         img:
         "VM-portfolio/assets/wordle_clone.png",
-        web:"https://vm799.github.io/Wordle/",
+        web:"https://vm799.github.io/Wordle-with-dictionary/",
     },
     // {
     //     id:3,
