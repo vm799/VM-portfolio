@@ -19,8 +19,9 @@ export default function Portfolio() {
             title:"Featured",
         },
         {
-            id: "web",
-            title:"UX",
+            id: "design",
+            title:"Javascript",
+            
         },
        
         {
@@ -28,8 +29,8 @@ export default function Portfolio() {
             title:"Mobile",
         },
         {
-            id: "design",
-            title:"Project Javascript",
+            id: "web",
+            title:"UX",
         },
       
 
@@ -77,11 +78,13 @@ switch(selected){
                    alt=""
                    /> </a>
                   
-                   <h3>{data.title}</h3>
-                  
+                   <h3>{data.title}</h3>               
                </div>
-               ))}
                
+               ))}
+               <div className="container-desc">
+                   <h4>{data.title}</h4>
+                   </div>
              </div>
            </div>
       

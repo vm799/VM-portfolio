@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&family=Roboto:wght@300;700;900&display=swap");
 .Hero {
   background-color: #141414;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: white;
+  padding-bottom: 3em;
 }
 
 @media (max-width: 868px) {
@@ -55,6 +56,7 @@
   height: 100%;
   width: 100%;
   border-radius: 50%;
+  background: fixed;
 }
 
 .Hero .right {
@@ -83,6 +85,7 @@
 @media (max-width: 868px) {
   .Hero .right .wrapper {
     padding-left: 0;
+    padding-top: 3em;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -101,7 +104,7 @@
 }
 
 .Hero .right .wrapper h2 {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .Hero .right .wrapper h3 {

@@ -3,6 +3,7 @@ import "./Testimonials.css"
 export default function Testimonials() {
   const data = [
     {
+      key:1,
       id: 1,
       name: "Madan Raj Rajagopal",
       title: "Founder & CEO, Ludimos",
@@ -12,6 +13,7 @@ export default function Testimonials() {
 
    },
     {
+      key:2,
       id: 2,
       name: "Suzanne Lambert",
       title: "Chair & Trustee, DODI Development Initiative",
@@ -22,6 +24,7 @@ export default function Testimonials() {
         featured: true,
     },
     {
+      key:3,
       id: 3,
       name: "Peter Mitchell",
       title: "Clinical Manager, NHS Homerton Hospital",

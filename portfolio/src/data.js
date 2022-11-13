@@ -3,6 +3,7 @@ export const featuredPortfolio =[
     {
         id:1,
         title: "NFT Synetic",
+        desc:"Client design & build",
         img:
         "VM-portfolio/assets/img2.png",
         web:"https://vm799.github.io/synetic-ss/" 
@@ -10,6 +11,7 @@ export const featuredPortfolio =[
     {
         id:2,
         title: "Fitness services",
+        desc:"Website for new gym and fitness services",
         img:
         "VM-portfolio/assets/img3.png",
         
@@ -17,6 +19,7 @@ export const featuredPortfolio =[
     {
         id:3,
         title: "Educational tutoring",
+        desc:"Website build for Optometry tutoring",
         img:
         "VM-portfolio/assets/Optom_desktop.png",
         web:"https://vm799.github.io/TheOptomTutors/"

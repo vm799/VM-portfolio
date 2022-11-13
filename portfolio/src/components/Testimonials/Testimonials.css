@@ -11,7 +11,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 2em;
+  margin: 4em;
+  padding-bottom: 3em;
 }
 
 @media (max-width: 868px) {
@@ -24,7 +25,6 @@
 .Testimonials h1 {
   font-size: 50px;
   margin-top: 2em;
-  color: white;
 }
 
 @media (max-width: 868px) {
@@ -112,7 +112,7 @@
 @media (max-width: 868px) {
   .Testimonials .main-testimonial .center {
     font-size: 12px;
-    padding: 5px;
+    padding: 5px 10px;
   }
 }
 
@@ -238,6 +238,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border: 2px solid green;
 }
 
 .Testimonials .container .card .top img.left, .Testimonials .container .card .top img.right {
@@ -290,7 +291,6 @@
 
 .Testimonials .container .bottom h3 {
   margin: 10px 5px 0;
-  border: 5px solid pink;
 }
 
 @media (max-width: 868px) {

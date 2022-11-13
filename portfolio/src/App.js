@@ -8,6 +8,9 @@ import "./App.css"
 import { useState } from "react";
 import Menu from "./components/Menu/Menu";
 import Slider from "./components/Slider/Slider";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Footer from "./components/Footer/Footer";
+
 
 function App() {
   const [menuOpen, setMenuOpen] =useState(false)
@@ -17,12 +20,14 @@ function App() {
      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
      <div className="sections">
      <Hero />
+     <AboutMe />
      <Portfolio />
      {/* <Works /> */}
    <TestimonialSlider />
      {/* <Testimonials /> */}
      {/* <Slider /> */}
      <Contact />
+     <Footer />
      </div>
     </div>
   );

@@ -2,9 +2,11 @@
 
 .Hero {
   background-color: rgb(20, 20, 20);
+  
+  color:white;
   display: flex;
-color:white;
 
+padding-bottom: 3em;
 
   @include mobile{
     flex-direction: column;
@@ -15,21 +17,22 @@ color:white;
     flex: 0.5;
     overflow: hidden;
 
+   
+
     .imgContainer {
       width: 400px;
       height: 400px;
-      background-color: rgb(176, 3, 89);
+      background-color: #b00359;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
       justify-content: center;
       float: right;
       margin-top: 8em;
-     
     
       @include desktop{
         width: 800px;
-       height: 800px;
+        height: 800px;
       }
 
       
@@ -38,7 +41,8 @@ color:white;
         height: 100%;
         width:100%;
         border-radius: 50%;
-       
+        background: fixed;
+        
       }
     }
   }
@@ -56,6 +60,7 @@ color:white;
 
       @include mobile{
         padding-left: 0;
+        padding-top: 3em;
         align-items: center;
       }
 
@@ -68,7 +73,8 @@ color:white;
         }
       }
       h2 {
-        font-size: 35px;
+        font-size: 30px;
+        // font-weight: 400;
       }
       h3 {
         font-size: 30px;

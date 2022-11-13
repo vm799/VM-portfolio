@@ -7,7 +7,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
-
+padding-block: 4em;
 
     @include mobile {
         flex-direction: column;
@@ -64,7 +64,12 @@
             align-items: center;
             justify-content: center;
           
-            
+            .statusMessage{
+                padding: 1em 2em;
+                color: cyan;
+                font-family: Raleway;
+                font-size: 1em;
+            }
         
             input{
                 width: 300px;
@@ -81,6 +86,7 @@
             }
             input[type=text] {
                 // padding: 12px 20px;
+                display:block;
                 border:none;
                 border-bottom: 1px solid rgb(182, 49, 75); 
                 box-sizing: border-box;
@@ -110,16 +116,18 @@
             }
 
             textarea[type=text] {
+              
                 letter-spacing: 2px;
                 border:none;
                 border-bottom: 1px solid rgb(182, 49, 75); 
                 box-sizing: border-box;
                 margin-top: 1em;
                 color:rgb(182, 49, 75);
-                border: 5px solid rgb(255, 47, 193);
+                
               }
 
               textarea[name=message] {
+                display:block;
                 letter-spacing: 2px;
                 border:none;
                 border-bottom: 1px solid rgb(182, 49, 75); 
@@ -131,12 +139,13 @@
              
 
               input[type=email]{
+                display:block;
                 border:none;
                 border-bottom: 1px solid rgb(182, 49, 75); 
                 box-sizing: border-box;
                 margin-bottom:1em;
                 color:rgb(182, 49, 75);
-                border: 5px solid rgb(255, 47, 193);
+           
               }
 
 

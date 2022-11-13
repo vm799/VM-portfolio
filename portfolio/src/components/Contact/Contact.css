@@ -12,6 +12,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-block: 4em;
 }
 
 @media (max-width: 868px) {
@@ -93,6 +94,13 @@
           justify-content: center;
 }
 
+.Contact .right form .statusMessage {
+  padding: 1em 2em;
+  color: cyan;
+  font-family: Raleway;
+  font-size: 1em;
+}
+
 .Contact .right form input {
   width: 300px;
   height: 50px;
@@ -105,6 +113,7 @@
 }
 
 .Contact .right form input[type=text] {
+  display: block;
   border: none;
   border-bottom: 1px solid #b6314b;
   -webkit-box-sizing: border-box;
@@ -130,10 +139,10 @@
           box-sizing: border-box;
   margin-top: 1em;
   color: #b6314b;
-  border: 5px solid #ff2fc1;
 }
 
 .Contact .right textarea[name=message] {
+  display: block;
   letter-spacing: 2px;
   border: none;
   border-bottom: 1px solid #b6314b;
@@ -144,13 +153,13 @@
 }
 
 .Contact .right input[type=email] {
+  display: block;
   border: none;
   border-bottom: 1px solid #b6314b;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-bottom: 1em;
   color: #b6314b;
-  border: 5px solid #ff2fc1;
 }
 
 .Contact .right input[type=submit] {

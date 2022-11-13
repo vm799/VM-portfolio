@@ -12,6 +12,7 @@ export default function Contact() {
 // setMessage(true)
 //   }
 
+const [statusMessage, setStatusMessage] = useState("");
 const form = useRef();
 
   const sendEmail = (e) => {
@@ -24,11 +25,12 @@ const form = useRef();
       form.current, 
       'OB0udwl-DbYCzWBYt')
       .then((result) => {
-          console.log(result.text);
-          console.log("message sent!! boooyaaa");
+        console.log(result.text, result.status);
+        setStatusMessage("Thank you for reaching out, I'll get back to you shortly 😁 ");
           e.target.reset();
       }, (error) => {
           console.log(error.text);
+          setStatusMessage(`${error.text} happened`);
       });
   };
 
@@ -51,30 +53,13 @@ const form = useRef();
       </div>
       <div className="message-container">
       <textarea name="message" />
+      <p className="statusMessage">{statusMessage}</p>
       <input type="submit" value="SEND" />
       </div>
+    
     </form>
 
-        {/* <form onSubmit={handleSubmit}>
-          <div className="email-container">
-          <h4>your email</h4>
-          <input type="text"  />
-          </div>
-         
-          <div className="message-container">
-          <h4>your message
-          </h4>
-          <textarea  type="text" >
-          
-
-          </textarea>
-          </div>
-          <button type="Submit">SEND</button>
-         
-          {message && <span>Thank you for leaving me a message, I'll reply shortly  :)
-            </span>}
-
-        </form> */}
+       
       </div>
     </div>
   )

@@ -8,8 +8,8 @@ export default function Hero (){
 return (
     <div className= "Hero" id="hero">
 
-        <div className="left">
-            <div className="imgContainer">
+        <div className="left ">
+            <div className="imgContainer ">
             <img src="/VM-portfolio/assets/me_code1.png" alt="vaishali smiling" />
         </div>
         </div>
@@ -30,9 +30,9 @@ return (
         startDelay={2000}
         cursorColor="rgb(176, 3, 89)"
         multiText={[
-          'Software engineer',
-          'Web designer',
-          'UX Designer',
+          'Software developer',
+          'Frontend Web designer',
+          'UX designer',
           'Clinical Optometrist',
           'Hockey & Cricket Coach',
           'Nutritional Therapist',

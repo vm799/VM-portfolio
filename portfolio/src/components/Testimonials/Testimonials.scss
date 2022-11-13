@@ -1,22 +1,24 @@
 @import "../../global.scss";
 
 .Testimonials {
-  background-color: rgb(20, 20, 20);
- 
+    background-color: rgb(20, 20, 20);
+    // color:white;
+  
     display: flex;
     flex-direction:column;
     align-items: center;
-    margin-bottom: 2em;
-
+    margin: 4em;
+padding-bottom: 3em;
     @include mobile{
         justify-content: space-around;
     }
    
     
     h1{
+       
         font-size: 50px;
         margin-top: 2em;
-        color:white;
+       
 
        @include mobile{
            font-size: 40px;
@@ -85,12 +87,13 @@
     .center {
        
         padding: 10px 55px;
+        
         background-color: rgb(255, 236, 240);
         font-family: 'Raleway', sans-serif;
 
         @include mobile{
             font-size: 12px;
-            padding: 5px;
+            padding: 5px 10px;
         }
 
         &.top{
@@ -135,7 +138,7 @@
         align-items: center;
         justify-content: center;
         margin:3em 0;
-       
+      
 
 
         @include mobile{
@@ -157,6 +160,7 @@
             padding:20px;
             transition: all 1s ease;
             margin:1em;
+          
             background-color: white;
 
             @include mobile{
@@ -182,6 +186,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                border:2px solid green;
 
                 img{
                     &.left,
@@ -223,7 +228,7 @@
 
         h3{
             margin: 10px 5px 0 ;
-border: 5px solid pink;
+
             @include mobile{
                 font-size:14px;
             }

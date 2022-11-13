@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&family=Roboto:wght@300;700;900&display=swap");
+.AboutMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #141414;
+  color: white;
+  padding: 5em 12em;
+}
+
+.AboutMe span {
+  color: #b00359;
+  font-weight: 400;
+}
+
+@media (max-width: 868px) {
+  .AboutMe {
+    margin-top: 3em;
+    padding: 50px;
+  }
+}
+
+.AboutMe h1 {
+  font-size: 2em;
+}
+
+@media (max-width: 868px) {
+  .AboutMe h1 {
+    font-size: 0.75em;
+  }
+}
+
+.AboutMe .bio-title {
+  text-indent: -2em;
+  padding-inline: 2em;
+  color: #b00359;
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 700px;
+  font-size: 1.7em;
+}
+
+@media (max-width: 868px) {
+  .AboutMe .bio-title {
+    text-indent: 0;
+    font-size: 1.25em;
+    padding-inline: 2em;
+  }
+}
+
+.AboutMe .bio-body {
+  max-width: 600px;
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2em;
+  font-weight: 300;
+  font-size: 1.25em;
+}
+
+.AboutMe .bio-body .bio-text {
+  margin-top: 1em;
+}
+/*# sourceMappingURL=AboutMe.css.map */
