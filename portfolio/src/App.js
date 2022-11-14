@@ -10,7 +10,7 @@ import Menu from "./components/Menu/Menu";
 import Slider from "./components/Slider/Slider";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Footer from "./components/Footer/Footer";
-
+import ParticleBackground from "./components/ParticleBackground/ParticleBackground";
 
 function App() {
   const [menuOpen, setMenuOpen] =useState(false)
@@ -19,6 +19,7 @@ function App() {
      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
      <div className="sections">
+    <ParticleBackground />
      <Hero />
      <AboutMe />
      <Portfolio />
