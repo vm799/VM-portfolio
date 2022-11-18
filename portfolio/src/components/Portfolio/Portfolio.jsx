@@ -78,12 +78,12 @@ switch(selected){
                    alt=""
                    /> </a>
                   
-                   <h3>{data.title}</h3>               
+                   {/* <h3>{data.title}</h3>                */}
                </div>
                
                ))}
                <div className="container-desc">
-                   <h4>{data.title}</h4>
+                   <h4>{data.desc}</h4>
                    </div>
              </div>
            </div>

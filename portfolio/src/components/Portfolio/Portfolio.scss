@@ -1,18 +1,23 @@
 @import "../../global.scss";
 
 .Portfolio{
-    margin-top: 5em;
+    margin-top: 7em;
     padding: 2em 0;
     display:flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(20, 20, 20);
+    background-color: rgba(20, 20, 20, .45);
+    border-radius: 2px;
+  border: 1px solid rgba(20, 20, 20, .45);
+
+  backdrop-filter: blur(15px);
     color:whitesmoke;
     
 
     @include mobile{
         font-size: 40px;
         margin-top: 3em;
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
     }
 
     h1{
@@ -71,7 +76,7 @@
             align-items: center;
             justify-content: center;
             flex-wrap: nowrap;
-            
+           
          
 
             @include mobile{
@@ -92,6 +97,7 @@
                 width: 400px;
                 height: 250px;
                 border-radius: 20px;
+               
                 // border: 1px solid lightgrey;
                 box-shadow: 5px 5px 35px rgba(220, 220, 220, 0.13);
                 margin: 10px 20px;
@@ -103,14 +109,21 @@
                 transition: all .5s ease;
                 cursor: pointer;
                 // border: 5px solid green;
-                background: rgb(248, 21, 203);
-                    background: linear-gradient(0deg, rgb(176, 3, 89) 0%, rgb(98, 71, 88) 50%, rgba(7,217,226,1) 100%);
-                    border: 1px solid rgb(176, 3, 89);
-                    box-shadow: 0px 5px 5px  rgb(176, 3, 89);
-                    color: white;
+                background: rgba(19, 19, 19, 0.238);
+                    // background: linear-gradient(0deg, rgb(176, 3, 89) 0%, rgb(98, 71, 88) 50%, rgba(7,217,226,1) 100%);
+                    // border: 1px solid rgb(176, 3, 89);
+                    // box-shadow: 0px 15px 5px  rgb(176, 3, 89);
+                    // color: white;
+        
+                    // border: 1px solid rgba(20, 20, 20, .45);
+                    // box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+                    // backdrop-filter: blur(15px);
                     
                     img{
-                        opacity:0;
+                        opacity:0.5;
+                        border: 1px solid rgba(20, 20, 20, .45);
+                        box-shadow: 0 0 5px 1px rgba(0, 0, 0, .25);
+                        backdrop-filter: blur(15px);
                     }
 
                

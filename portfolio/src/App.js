@@ -10,25 +10,126 @@ import Menu from "./components/Menu/Menu";
 import Slider from "./components/Slider/Slider";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Footer from "./components/Footer/Footer";
-import ParticleBackground from "./components/ParticleBackground/ParticleBackground";
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 function App() {
   const [menuOpen, setMenuOpen] =useState(false)
+  
   return (
     <div className="App">
      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+
      <div className="sections">
-    <ParticleBackground />
-     <Hero />
+     <Parallax 
+     pages={5} 
+     style={{ top: '0', left: '0', 
+     background: "rgb(20, 20, 20)"
+  }}
+     >
+
+  <ParallaxLayer
+    offset={0}
+    speed={-0.25}
+    factor={1}
+    
+    // style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+    >
+      <Hero />
+
+  </ParallaxLayer>
+
+
+
+  <ParallaxLayer
+    offset={1}
+    speed={1}
+    
+    style={{
+      // display: 'flex',
+      // justifyContent: 'center',
+      // alignItems: 'center',
+      // BackgroundColor: 'white',
+    }}>
+    
+    <AboutMe />
+
+  </ParallaxLayer>
+
+  <ParallaxLayer
+    offset={1.9}
+    speed={1.5}
+    style={{
+ 
+      // display: 'flex',
+      // justifyContent: 'center',
+      // alignItems: 'center',
+      // color: 'white',
+    }}>
+    
+    <Portfolio />
+
+  </ParallaxLayer>
+
+  <ParallaxLayer
+    offset={2.3}
+    speed={0.2}
+    // sticky={{ start: 3, end: 3 }}
+    style={{
+     
+      // display: 'flex',
+      // justifyContent: 'center',
+      // alignItems: 'center',
+      // color: 'white',
+    }}>
+    <TestimonialSlider />
+
+  </ParallaxLayer>
+
+  <ParallaxLayer
+    offset={3.3}
+    speed={0.3}
+    // sticky={{ start:4, end: 4 }}
+    style={{
+      // display: 'flex',
+      // justifyContent: 'center',
+      // alignItems: 'center',
+      // color: 'white',
+    }}>
+    
+    <Contact/>
+  
+  </ParallaxLayer>
+ 
+  <ParallaxLayer
+    offset={4.25}
+    speed={0.75}
+    
+    style={{
+
+
+      // display: 'flex',
+      // justifyContent: 'center',
+      // alignItems: 'center',
+      BackgroundColor: 'black',
+    }}>
+    
+     <Footer />
+
+  </ParallaxLayer>
+</Parallax>
+
+
+    {/* <ParticleBackground /> */}
+     {/* <Hero />
      <AboutMe />
-     <Portfolio />
-     {/* <Works /> */}
-   <TestimonialSlider />
+     <Portfolio /> */}
+     {/* <Works />
+   <TestimonialSlider /> */}
      {/* <Testimonials /> */}
      {/* <Slider /> */}
-     <Contact />
-     <Footer />
+     {/* <Contact />
+     <Footer /> */}
      </div>
     </div>
   );

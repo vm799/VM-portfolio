@@ -3,7 +3,7 @@ export const featuredPortfolio =[
     {
         id:1,
         title: "NFT Synetic",
-        desc:"Client design & build",
+        desc:"Client design & build for an NFT startup NFT",
         img:
         "VM-portfolio/assets/img2.png",
         web:"https://vm799.github.io/synetic-ss/" 

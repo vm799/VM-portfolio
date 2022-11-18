@@ -1,17 +1,21 @@
 @import "../../global.scss";
 
 .Contact {
-    background-color: rgb(20, 20, 20);
+    background-color: rgba(20, 20, 20, .45);
+    border-radius: 2px;
+  border: 1px solid rgba(20, 20, 20, .45);
+
+  backdrop-filter: blur(15px);
     display:flex;
     color: whitesmoke;
     display:flex;
     align-items: center;
     justify-content: center;
 padding-block: 4em;
-
+padding-bottom: 1em;
     @include mobile {
         flex-direction: column;
-       
+         box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
         
     }
 
@@ -56,7 +60,7 @@ padding-block: 4em;
         form{
             width: 80%;
             height: 70%;
-           margin-bottom: 0.25em;
+        //    margin-bottom: 0.25em;
           
            display:flex;
            flex-direction: column;
