@@ -6,9 +6,11 @@ export default function AboutMe() {
         <div className="AboutMe" id="about-me">
         <div className="bio">
             <div className="bio-title"> 
-            <h2>i love problem solving with Python, </h2>
+            <h2>i love problem solving with Python,</h2>
+                 
             <h2>creating magic with frontend CSS and Javascript  </h2>
-            <h2>& i adore cocker spaniels.</h2>
+            <h2>
+                and i adore cocker spaniels.</h2>
             </div>
 
             <div className="bio-body">
@@ -18,9 +20,7 @@ export default function AboutMe() {
             <div className="bio-text">
             <span>I love building and designing,</span> I have a keen eye for fine detail & simple design.
             </div>
-            {/* <div className="bio-text">
-            <span>Studying the user's journey fills me with fascination </span>and a passion  to design and code more enjoyable and productive user experiences.
-           </div> */}
+            
             </div>
         </div>
         </div>
