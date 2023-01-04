@@ -29,7 +29,7 @@
 }
 
 .Testimonials .container-slider {
-  width: 900px;
+  border: 5px solid hotpink;
   height: 540px;
   position: relative;
   overflow: hidden;
@@ -38,7 +38,7 @@
 
 @media (max-width: 868px) {
   .Testimonials .container-slider {
-    width: 400px;
+    width: 100%;
   }
 }
 
