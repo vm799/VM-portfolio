@@ -6,11 +6,6 @@
     text-align: center;
     color: white;
     margin-top: 14em;
-    /* background-color: rgba(20, 20, 20, .45);
-    border-radius: 2px;
-  border: 1px solid rgba(20, 20, 20, .45);
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
-  backdrop-filter: blur(15px); */
     
   }
   .footer a {
@@ -53,17 +48,7 @@
     color:teal;
   }
 
-  /* @media (min-width: 64em) {
-    .footer .container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr), 2fr;
-      grid-template-rows: repeat(2, 1fr);
-      grid-template-areas: "logo links1  links2 cta" "social links1 links2 copyright";
-      gap: 1rem;
-      /* justify-items: start; */
-      /* justify-items: center;
-    }
-  }  */
+
 
 
   .footer h3 {
