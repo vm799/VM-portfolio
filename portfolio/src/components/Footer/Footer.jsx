@@ -10,22 +10,7 @@ export default function Footer() {
         
     </a>
 
-      {/* <div class="footer__social">
-        
-        <a href="#">
-           <i class="fab fa-brands fa-discord" 
-           alt="discord">
-             </i>JOIN US
-        </a>
-        
-        <a href="#">
-          <i class="fab 
-          fa-brands fa-twitter" 
-          alt="twitter">
-            </i>FOLLOW US
-        </a>
-        
-      </div> */}
+    
 
       <div class="footer__links col1">
         <a href="#Hero">About Me</a>
@@ -38,9 +23,7 @@ export default function Footer() {
         <a href="#Portfolio">My work</a>
       </div>
 
-      {/* <div class="footer__cta">
-        <a href="#" class="button">Request Invite</a>
-      </div> */}
+     
 
       
     </div>

@@ -10,7 +10,7 @@ return (
 
         <div className="left ">
             <div className="imgContainer ">
-            <img src="/VM-portfolio/assets/me_code1.png" alt="vaishali smiling" />
+            <img src="VM-portfolio/assets/me_code1.png" alt="vaishali smiling" />
         </div>
         </div>
 

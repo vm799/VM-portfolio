@@ -6,8 +6,15 @@
     text-align: center;
     color: white;
     margin-top: 14em;
-    
   }
+  @media(max-width: 63.9em) {
+      .footer{
+    padding-top:10em;
+      }
+  }
+
+ 
+
   .footer a {
       text-decoration: none;
       margin:0;
@@ -61,8 +68,8 @@
  
   .footer__logo img {
     /* border: 5px solid pink; */
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 100px;
     margin-bottom: 0.5em;
   }
  
