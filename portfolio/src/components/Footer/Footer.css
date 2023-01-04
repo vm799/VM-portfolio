@@ -7,11 +7,20 @@
     color: white;
     margin-top: 14em;
   }
-  @media(max-width: 90em) {
+  @media(max-width: 60em) {
       .footer{
     padding-top:10em;
       }
   }
+
+  @media(min-width: 90em) {
+    .footer{
+  padding-top:2em;
+    }
+}
+  
+
+
 
  
 
@@ -70,7 +79,15 @@
     /* border: 5px solid pink; */
     height: 50px;
     width: 100px;
-    margin-bottom: 0.5em;
+    
+  }
+
+  @media (min-width: 64em) {
+    .footer__logo img {
+    
+    height: 100px;
+    width: 200px;
+    }
   }
  
   @media (min-width: 64em) {
@@ -204,4 +221,5 @@
     color:rgb(176, 3, 89);
     font-weight: bolder;
     margin-top:1rem;
+    
   }
