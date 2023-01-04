@@ -17,7 +17,7 @@
     
     h1{
         font-size: 50px;
-        margin-top: 2em;
+        // margin-top: 2em;
         color:white;
 
        @include mobile{
@@ -27,8 +27,8 @@
     }
 
 .container-slider{
-  border: 5px solid hotpink;
-  // width: 100%;
+ 
+   width: 100%;
   height: 540px;
   // margin: 100px auto 0;
    position: relative;

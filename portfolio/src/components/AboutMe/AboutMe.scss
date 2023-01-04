@@ -39,12 +39,13 @@
     .bio-title{
         text-indent: -2em;
         padding-inline: 2em;
-        color:rgb(176, 3, 89);
+        color:white;
         margin-top:3em;
         display:flex;
         flex-direction: column;
         max-width: 700px;
         font-size: 1.7em;
+        
 
         @include mobile{
             text-indent: 0;
