@@ -87,7 +87,7 @@ function App() {
   </ParallaxLayer>
 
   <ParallaxLayer
-    offset={3.3}
+    offset={3.5}
     speed={0.3}
     // sticky={{ start:4, end: 4 }}
     style={{
