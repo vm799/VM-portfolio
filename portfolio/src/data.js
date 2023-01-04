@@ -5,7 +5,7 @@ export const featuredPortfolio =[
         title: "NFT Synetic",
         desc:"Client design & build for an NFT startup NFT",
         img:
-        "VM-portfolio/assets/img2.png",
+        "/assets/img2.png",
         web:"https://vm799.github.io/synetic-ss/" 
     },
     {
@@ -13,7 +13,7 @@ export const featuredPortfolio =[
         title: "Fitness services",
         desc:"Website for new gym and fitness services",
         img:
-        "VM-portfolio/assets/img3.png",
+        "/assets/img3.png",
         
     },
     {
@@ -21,7 +21,7 @@ export const featuredPortfolio =[
         title: "Educational tutoring",
         desc:"Website build for Optometry tutoring",
         img:
-        "VM-portfolio/assets/Optom_desktop.png",
+        "/assets/Optom_desktop.png",
         web:"https://vm799.github.io/TheOptomTutors/"
     },
 ]
@@ -31,21 +31,21 @@ export const webPortfolio =[
         id:1,
         title: "FLY UX",
         img:
-"VM-portfolio/assets/UXDesign.png",
+"/assets/UXDesign.png",
 web: "https://www.uxfol.io/p/vaishalimehmi/03e4e086", 
     },
     {
         id:2,
         title: "DODI",
         img:
-        "VM-portfolio/assets/DODI_website.png",
+        "/assets/DODI_website.png",
         web:"https://www.dodi.org.uk"
     },
     {
         id:3,
         title: "Ludimos",
         img:
-        "VM-portfolio/assets/ludimos_desktop.png",
+        "/assets/ludimos_desktop.png",
         web:"https://www.figma.com/proto/NaBJJbSp4VfgMACccQ5TMa/LUDIMOS-Task-1-3?node-id=336%3A179&scaling=min-zoom&page-id=336%3A0&starting-point-node-id=336%3A48"
     },
         
@@ -58,21 +58,21 @@ export const mobilePortfolio =[
         id:1,
         title: "DODI Donate",
         img:
-        "VM-portfolio/assets/DODI_mobile.png",
+        "/assets/DODI_mobile.png",
         web:"https://www.figma.com/proto/yJ3rutwtCSb8jgwvgxuHON/DODI?node-id=43%3A338&scaling=scale-down&page-id=43%3A305&starting-point-node-id=43%3A306"
     },
     {
         id:2,
         title: "Optom Tutors",
         img:
-        "VM-portfolio/assets/img1.png",
+        "/assets/img1.png",
         web:"https://vm799.github.io/TheOptomTutors/"
     },
     {
         id:3,
         title: "Home Chef",
         img:
-        "VM-portfolio/assets/figma_design.png",
+        "/assets/figma_design.png",
         web:"https://www.figma.com/file/8P2Txqh3w0OXrEXl0JqBbd/sCRIMBA-Reds---Adventure-1?node-id=401%3A3"
     },
 ]
@@ -88,7 +88,7 @@ export const designPortfolio =[
         id:2,
         title: "Wordle App",
         img:
-        "VM-portfolio/assets/wordle_clone.png",
+        "/assets/wordle_clone.png",
         web:"https://vm799.github.io/Wordle-with-dictionary/",
     },
     // {

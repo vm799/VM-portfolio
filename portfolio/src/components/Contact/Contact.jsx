@@ -38,7 +38,7 @@ const form = useRef();
   return (
     <div className="Contact" id="contact">
       <div className="left">
-        <img src="VM-portfolio/assets/me_code.png" alt="" />
+        <img src="/assets/me_code.png" alt="" />
       </div>
       <div className="right">
         <h2> Contact.</h2>

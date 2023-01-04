@@ -5,7 +5,7 @@ export default function Footer() {
     <footer class="footer">
     <div class="reveal container">
       <a href="#"> 
-        <h3 class="footer__logo"><img src="VM-portfolio/assets/VMLogo3.png" alt="logo" ></img>
+        <h3 class="footer__logo"><img src="/assets/VMLogo3.png" alt="logo" ></img>
         </h3>
         
     </a>

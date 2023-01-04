@@ -3,7 +3,7 @@ const Testimonial_dataSlider = [
       id: 1,
       name: "Madan Raj Rajagopal",
       title: "Founder & CEO, Ludimos",
-      img:"VM-portfolio/assets/maddy.png",
+      img:"/assets/maddy.png",
    
       desc:        
       "Vaishali was involved in designing a couple of interfaces at Ludimos. Being a cricket coach and a UX expert, she was able to quickly understand the requirements I had and came up with very well thought user journeys. She was extremely proactive and she dived into several other aspects of the design, which weren't even a part of my requirement. She was motivated, energetic and lovely to work with. I wish her all the very best for her future endeavors.",

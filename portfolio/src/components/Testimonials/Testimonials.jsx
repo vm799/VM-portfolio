@@ -7,7 +7,7 @@ export default function Testimonials() {
       id: 1,
       name: "Madan Raj Rajagopal",
       title: "Founder & CEO, Ludimos",
-      img:"assets/maddy.png",
+      img: "https://media.licdn.com/dms/image/C4D03AQGOIjN3L8D31Q/profile-displayphoto-shrink_200_200/0/1569565972234?e=1678320000&v=beta&t=vbFdRTyuCwRGUizyqLP4huB29HCXQXyGVU_UQR9sCBo",
       icon: "assets/twitter.png",
       desc:         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
 
@@ -18,7 +18,7 @@ export default function Testimonials() {
       name: "Suzanne Lambert",
       title: "Chair & Trustee, DODI Development Initiative",
       img: "https://i0.wp.com/dodi.org.uk/wp-content/uploads/2021/07/5.-Suzanne-Lambert-1.jpg?resize=768%2C576&ssl=1",
-      icon: "assets/youtube.png",
+      icon: "/assets/youtube.png",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
         featured: true,
@@ -30,7 +30,7 @@ export default function Testimonials() {
       title: "Clinical Manager, NHS Homerton Hospital",
       img:
         "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/linkedin.png",
+      icon: "/assets/linkedin.png",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
         
@@ -48,7 +48,7 @@ export default function Testimonials() {
 
 
 <img className="user"
-    src="VM-Portfolio/assets/maddy.png"
+    src="/assets/maddy.png"
     alt="profile pic" />
 
 

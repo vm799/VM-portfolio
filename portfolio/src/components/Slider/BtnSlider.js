@@ -14,7 +14,7 @@ export default function BtnSlider({ direction, moveSlide }){
     : 'btn-slide prev'}
     >
         <img 
-        src={direction === "next" ?  'VM-portfolio/assets/arrowright.png' : 'VM-portfolio/assets/arrowleft.png'} 
+        src={direction === "next" ?  '/assets/arrowright.png' : '/assets/arrowleft.png'} 
         alt="direction arrow" />
     </button>
     

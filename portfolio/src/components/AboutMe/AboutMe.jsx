@@ -15,10 +15,10 @@ export default function AboutMe() {
 
             <div className="bio-body">
             <div className="bio-text">
-            <span>  I am a graduate software developer, UX experience designer.</span> 
-            I am a natural problem solver and am able to use my UX and coding knowledge to create a gret user experience.</div>
+            <span>  I am a graduate software developer and UX experience designer.</span> 
+            I am a natural problem solver and am able to use my UX and coding knowledge to create a great user experience.</div>
             <div className="bio-text">
-            <span>I love building and designing,</span> I have a keen eye for fine detail & simple design.
+            <span>I love building and designing and</span> I have a keen eye for fine detail & simple design.
             </div>
             
             </div>

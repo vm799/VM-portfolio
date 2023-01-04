@@ -7,7 +7,7 @@
     color: white;
     margin-top: 14em;
   }
-  @media(max-width: 63.9em) {
+  @media(max-width: 90em) {
       .footer{
     padding-top:10em;
       }
