@@ -20,8 +20,9 @@
 
 @media (max-width: 868px) {
   .Testimonials {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
