@@ -3,7 +3,7 @@
 .Testimonials {
     // background-color: rgb(0, 0, 0);
     // color:white;
-
+    
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -28,7 +28,7 @@
     }
 
     .main-testimonial{
-        
+     
         display: flex;
         align-items: center;
         justify-content: center;
@@ -46,7 +46,7 @@
             padding:40px;
             transition: all 1s ease;
             margin:1em;
-        
+           
 
            
 
@@ -88,9 +88,9 @@
     .center {
        
         padding: 10px 55px;
-        
         background-color: rgb(255, 236, 240);
         font-family: 'Raleway', sans-serif;
+       
 
         @include mobile{
             font-size: 12px;
@@ -149,7 +149,7 @@
         }
        
         .card{
-            border: 5px solid hotpink;
+            
             width:350px;
             
             border-radius: 10px;

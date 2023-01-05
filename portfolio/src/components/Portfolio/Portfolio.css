@@ -82,7 +82,6 @@
 }
 
 .Portfolio ul li.active {
-  border: 1px solid #b00359;
   color: #b00359;
   font-weight: 800;
   padding: 0.75em 2em;
