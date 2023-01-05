@@ -14,6 +14,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: 5px solid purple;
 }
 
 .Testimonials h1 {
@@ -110,6 +111,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 200px;
 }
 
 .Testimonials .container-slider .card .top img {
