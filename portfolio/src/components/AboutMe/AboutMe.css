@@ -18,7 +18,7 @@
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
   color: white;
-  padding: 5em 12em;
+  padding: 0em 12em;
 }
 
 .AboutMe span {
@@ -28,7 +28,7 @@
 
 @media (max-width: 868px) {
   .AboutMe {
-    margin-top: 3em;
+    margin-top: 5em;
     padding: 50px;
   }
 }
@@ -47,7 +47,6 @@
   text-indent: -2em;
   padding-inline: 2em;
   color: white;
-  margin-top: 3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
