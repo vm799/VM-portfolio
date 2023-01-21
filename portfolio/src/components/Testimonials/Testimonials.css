@@ -237,7 +237,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 2px solid green;
 }
 
 .Testimonials .container .card .top img.left, .Testimonials .container .card .top img.right {
@@ -300,7 +299,7 @@
 
 .Testimonials .container .bottom h4 {
   color: gray;
-  margin: 0 1em;
+  margin: 1em;
 }
 
 @media (max-width: 868px) {

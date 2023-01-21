@@ -29,10 +29,12 @@
 
 .Testimonials .container-slider {
   width: 100%;
-  height: 540px;
+  height: 640px;
+  margin: 100px auto 0;
   position: relative;
   overflow: hidden;
-  padding: 1em 0;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 868px) {
@@ -47,6 +49,19 @@
   opacity: 0;
   -webkit-transition: opacity ease-in-out 0.8s;
   transition: opacity ease-in-out 0.8s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .Testimonials .container-slider .active-anim {
@@ -66,7 +81,6 @@
 }
 
 .Testimonials .container-slider .card {
-  height: 85%;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 15px -8px #fbfafa;
           box-shadow: 0px 0px 15px -8px #fbfafa;
@@ -83,16 +97,16 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 40px;
+  padding: 30px;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-  margin: 0.5em;
   background-color: white;
 }
 
 @media (min-width: 868px) {
   .Testimonials .container-slider .card {
-    padding: 5em;
+    padding: 1em 5em;
+    margin: 0 1em;
   }
 }
 
@@ -117,7 +131,6 @@
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  margin-top: -2.5em;
 }
 
 @media (min-width: 868px) {
@@ -148,14 +161,13 @@
   background-color: #fff5f8;
   line-height: 22px;
   font-size: 17px;
-  padding: 15px 5px;
   font-weight: 300;
   font-family: 'Raleway', sans-serif;
+  margin-top: 0;
 }
 
 @media (min-width: 868px) {
   .Testimonials .container-slider .card .center {
-    padding: 3em;
     line-height: 25px;
   }
 }
@@ -177,7 +189,7 @@
 }
 
 .Testimonials .container-slider .card .bottom h3 {
-  margin: 0px 5px 0;
+  margin-top: 1em;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 800;
@@ -206,8 +218,8 @@
 }
 
 .Testimonials .container-slider .btn-slide {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: #f1f1f168;
   /* background: #e40909; */
@@ -232,14 +244,12 @@
 }
 
 .Testimonials .container-slider .btn-slide img {
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 18px;
   pointer-events: none;
 }
 
 .Testimonials .container-slider .prev {
-  top: 150%;
-  left: 20px;
   -webkit-transform: translateY(-60%);
           transform: translateY(-60%);
 }
@@ -259,7 +269,6 @@
 
 .Testimonials .container-slider .container-dots {
   position: absolute;
-  bottom: 15px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);

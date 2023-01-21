@@ -12,7 +12,7 @@ const Testimonial_dataSlider = [
     {
       id: 2,
       name: "Suzanne Lambert",
-      title: "Chair & Trustee, DODI Development Initiative",
+      title: "Chair & Trustee, DODI Charity",
       img: "https://i0.wp.com/dodi.org.uk/wp-content/uploads/2021/07/5.-Suzanne-Lambert-1.jpg?resize=768%2C576&ssl=1",
      
       desc:

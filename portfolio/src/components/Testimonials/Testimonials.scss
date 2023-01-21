@@ -71,6 +71,7 @@
                     &.left,
                     &.right {
                         height:35px;
+                        
                     }
 
                     &.user{
@@ -90,7 +91,7 @@
         padding: 10px 55px;
         background-color: rgb(255, 236, 240);
         font-family: 'Raleway', sans-serif;
-       
+        
 
         @include mobile{
             font-size: 12px;
@@ -161,7 +162,6 @@
             padding:20px;
             transition: all 1s ease;
             margin:1em;
-          
             background-color: white;
 
             @include mobile{
@@ -187,12 +187,13 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                border:2px solid green;
+                
 
                 img{
                     &.left,
                     &.right {
                         height:25px;
+                       
                     }
 
                     &.user{
@@ -216,6 +217,7 @@
         background-color: rgb(241, 229, 232);
         // border-radius: 10px;
 
+
         @include mobile{
             font-size: 12px;
             padding: 5px;
@@ -237,7 +239,7 @@
         h4{
             color: gray;
                 
-margin: 0 1em ;
+margin:  1em ;
 
             @include mobile{
                 font-size:14px;
