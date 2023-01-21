@@ -6,7 +6,7 @@ export default function Menu( {menuOpen, setMenuOpen}) {
     <div className={ "menu  " + (menuOpen && "active" )}>
         <ul onClick={()=>setMenuOpen(false)}  >
             <li>
-                <a href="https://www.canva.com/design/DAFWooJv1UM/4qanjK5CDfkEbDLotdpvEw/edit?utm_content=DAFWooJv1UM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">my CV</a>
+                <a href="https://www.canva.com/design/DAEZS_PA2fY/eSxkiI81fzK0hPzuB0SuUQ/view?utm_content=DAEZS_PA2fY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">my CV</a>
             </li>
             <li>
                 <a href="#portfolio"> my portfolio</a>
