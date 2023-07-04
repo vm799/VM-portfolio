@@ -30,13 +30,14 @@ return (
         startDelay={2000}
         cursorColor="rgb(176, 3, 89)"
         multiText={[
-          'Software developer',
+          'Test Automation engineer',
+          'Java software developer',
           'Frontend Web designer',
           'UX designer',
           'Clinical Optometrist',
           'Hockey & Cricket Coach',
           'Nutritional Therapist',
-          'Software engineer'
+          'Test automation engineer'
         ]}
         multiTextDelay={1000}
         typeSpeed={100}
