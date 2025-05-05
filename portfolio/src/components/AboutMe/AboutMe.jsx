@@ -6,7 +6,7 @@ export default function AboutMe() {
         <div className="AboutMe" id="about-me">
         <div className="bio">
             <div className="bio-title"> 
-            <h2>i love building software, finding solutions, managing projects and problem solving with <span>AI.</span>,</h2>
+            <h2>i love building software, problem solving, managing complex technical projects</h2>
                  
             <h2>creating magic with  <span>CSS</span> all things <span>AI</span>  </h2>
             <h2>
